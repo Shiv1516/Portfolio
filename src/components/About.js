@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
   return (
-    <div className="wrapper df aic ptb40">
+    <div className="wrapper df fww aic ptb40">
       <div className="about-left p32">
         <img src="/images/img_01.jpg" alt="img" className="br50 brd1" />
       </div>
