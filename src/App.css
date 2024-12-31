@@ -841,7 +841,7 @@ table {
 
 /* border Style */
 .brd1 {
-  border: 1px solid #d9d9d9;
+  border: 5px solid #008b8b;
 }
 .brd2 {
   border: 1px solid rgba(24, 4, 4, 0.4);
