@@ -4,7 +4,7 @@ function About() {
   return (
     <div className="wrapper df fww aic ptb40">
       <div className="about-left p32">
-        <img src="/images/img_01.jpg" alt="img" className="br50 brd1" />
+        <img src="/images/img_01.jpg" alt="img" className="w100 br50 brd1" />
       </div>
       <div className="flx1 p24 lh30 fs20">
         I'm a Frontend Developer with over a year of experience, specializing in
