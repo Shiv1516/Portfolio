@@ -1,18 +1,28 @@
 import React from "react";
+import "./App.css";
 import Header from "./components/Header";
 import About from "./components/About";
-import Service from "./components/Service";
-import Project from "./components/Project";
 import Footer from "./components/Footer";
-import "./App.css";
+import Features from "./components/Features";
+import Portfolio from "./components/Portfolio";
+import Resume from "./components/Resume";
+import Clients from "./components/Clients";
+import Pricing from "./components/Pricing";
+import Blog from "./components/Blog";
+import Contact from "./components/Contact";
 
 function Home() {
   return (
-    <div>
+    <div className="bg1">
       <Header />
       <About />
-      <Service />
-      <Project />
+      <Features />
+      <Portfolio />
+      <Resume />
+      <Clients />
+      <Pricing />
+      <Blog />
+      <Contact />
       <Footer />
     </div>
   );
