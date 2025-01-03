@@ -1,6 +1,4 @@
 import React from "react";
-import { IoMdCall } from "react-icons/io";
-import { MdMail } from "react-icons/md";
 
 function Header() {
   return (
