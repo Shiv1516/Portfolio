@@ -1,19 +1,14 @@
 import "./App.css";
-import Header from "./components/Header";
-import About from "./components/About";
-import Service from "./components/Service";
-import Project from "./components/Project";
-import Footer from "./components/Footer";
+import Home from "./Home";
+import { BrowserRouter as Router, Routes, Rout, Route } from "react-router-dom";
 
 function App() {
   return (
-    <>
-      <Header />
-      <About />
-      <Service />
-      <Project />
-      <Footer />
-    </>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </Router>
   );
 }
 
