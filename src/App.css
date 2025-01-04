@@ -553,6 +553,10 @@ table {
 .mtb16 {
   margin-top: 16px;
 }
+.mt20,
+.mtb20 {
+  margin-top: 20px;
+}
 .mt24,
 .mtb24 {
   margin-top: 24px;
@@ -636,6 +640,9 @@ table {
   margin-right: 48px;
 }
 
+.mb-6 {
+  margin-bottom: -6px;
+}
 .mb4 {
   margin-bottom: 4px;
 }
@@ -650,6 +657,10 @@ table {
 .mb16,
 .mtb16 {
   margin-bottom: 16px;
+}
+.mb20,
+.mtb20 {
+  margin-bottom: 20px;
 }
 .mb24,
 .mtb24 {
@@ -991,4 +1002,26 @@ table {
 }
 .features-card:hover .feature-right-icon {
   display: block;
+}
+.features-card {
+  height: 350px;
+}
+/* portfolio-section css */
+.portfolio-card:hover .port-img {
+  transform: scale(1.1);
+}
+.portfolio-card-heading:hover .port-icon {
+  display: inline;
+}
+.port-icon {
+  animation: slide1 0.5s ease-in-out;
+}
+@keyframes slide1 {
+  0% {
+    transform: translate(-8px, 5px); /* Start from left-bottom corner */
+  }
+
+  100% {
+    transform: translate(0px, 0px); /* Move to top-right corner */
+  }
 }
