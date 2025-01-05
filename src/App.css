@@ -920,14 +920,11 @@ table {
 .w50 {
   width: 50%;
 }
-.w100vw {
-  width: 100vw;
-}
 .w100 {
   width: 100%;
 }
-.w70 {
-  width: 70%;
+.w85 {
+  width: 85%;
 }
 .w8 {
   width: 8px;
@@ -1084,23 +1081,25 @@ table {
   left: -44px;
   top: 50px;
 }
-/* .testimonial-des:after {
-  width: 130px;
-  height: 130px;
+.testimonial-des:after {
+  width: 125px;
+  height: 125px;
   left: 0;
-  top: -130px;
+  top: -125px;
   background: transparent;
   background-image: url(../public/images/quote.png);
   background-size: cover;
   z-index: -1;
-  opacity: 0.5;
+  opacity: 0.3;
   background-repeat: no-repeat;
   background-position: center center;
-} */
-.quote-icon {
-  width: 130px;
-  height: 130px;
-  background: transparent;
+}
+.arrows {
+  top: -33%;
+}
+.left-icon:hover,
+.right-icon:hover {
+  background: #f9004d;
 }
 /* footer-section css */
 .footer-icon {
