@@ -5,13 +5,13 @@ import { Link } from "react-router-dom";
 
 function Portfolio() {
   return (
-    <div className="portfolio-section tac ptb48 wrapper">
+    <div className="portfolio-section tac ptb80 wrapper brd-b1">
       <h4 className="section-subheading fs14 mb20 fc3 fw5 ls2 ttu">
         Visit my portfolio and keep your feedback
       </h4>
       <h2 className="section-heading fw7 fs60 mb32 fc2">My Portfolio</h2>
 
-      <div className="portfolio-cards-box df fww pt24">
+      <div className="portfolio-cards-box df fww ptb32">
         <div className="portfolio-cards flx33">
           <div className="portfolio-card br12 p32 bg-bs-01 m16">
             <div className="portfolio-card-img mb24 ofh df br12">

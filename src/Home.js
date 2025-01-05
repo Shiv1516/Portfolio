@@ -10,6 +10,7 @@ import Clients from "./components/Clients";
 import Pricing from "./components/Pricing";
 import Blog from "./components/Blog";
 import Contact from "./components/Contact";
+import Testimonial from "./components/Testimonial";
 
 function Home() {
   return (
@@ -19,6 +20,7 @@ function Home() {
       <Features />
       <Portfolio />
       <Resume />
+      <Testimonial />
       <Clients />
       <Pricing />
       <Blog />

@@ -5,10 +5,10 @@ import { Link } from "react-router-dom";
 
 function Features() {
   return (
-    <div className="features-section wrapper ptb48">
+    <div className="features-section wrapper ptb80 brd-b1">
       <h4 className="section-subheading fs14 mb20 fc3 fw5 ls2 ttu">Features</h4>
       <h2 className="section-heading fw7 fs60 mb32 fc2">What I Do</h2>
-      <div className="features-card-box df fww pt32">
+      <div className="features-card-box df fww ptb32">
         <div className="features-cards flx33">
           <Link
             to="/"
