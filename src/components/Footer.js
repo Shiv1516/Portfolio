@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function Footer() {
   return (
-    <div className="footer-section ptb80 tac">
+    <div className="footer-section ptb80 tac" id="footer-id">
       <Link to="/" className="footer-logo mb24">
         <img
           src="/images/img_01.jpg"

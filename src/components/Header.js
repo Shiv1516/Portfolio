@@ -20,6 +20,16 @@ function Header() {
     };
   }, []);
 
+  const scrollToSection = (sectionId) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    }
+  };
+
   return (
     <div
       className={`header-section pr w100 zi99 bg1 transit1 ${
@@ -38,42 +48,66 @@ function Header() {
         <nav className="navbar v-center">
           <ul id="nav-items" className="nav-items fc1 v-center fs14 fw5 fww">
             <li className="nav-item">
-              <Link to="/" className="nav-link fc-h1 transit2 ttu p16">
+              <Link
+                onClick={() => scrollToSection("about-id")}
+                className="nav-link fc-h1 transit2 ttu p16"
+              >
                 Home
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/" className="nav-link fc-h1 transit2 ttu p16">
+              <Link
+                onClick={() => scrollToSection("feature-id")}
+                className="nav-link fc-h1 transit2 ttu p16"
+              >
                 Features
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/" className="nav-link fc-h1 transit2 ttu p16">
+              <Link
+                onClick={() => scrollToSection("portfolio-id")}
+                className="nav-link fc-h1 transit2 ttu p16"
+              >
                 Portfolio
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/" className="nav-link fc-h1 transit2 ttu p16">
+              <Link
+                onClick={() => scrollToSection("resume-id")}
+                className="nav-link fc-h1 transit2 ttu p16"
+              >
                 Resume
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/" className="nav-link fc-h1 transit2 ttu p16">
+              <Link
+                onClick={() => scrollToSection("client-id")}
+                className="nav-link fc-h1 transit2 ttu p16"
+              >
                 Clients
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/" className="nav-link fc-h1 transit2 ttu p16">
+              <Link
+                onClick={() => scrollToSection("pricing-id")}
+                className="nav-link fc-h1 transit2 ttu p16"
+              >
                 Pricing
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/" className="nav-link fc-h1 transit2 ttu p16">
+              <Link
+                onClick={() => scrollToSection("blog-id")}
+                className="nav-link fc-h1 transit2 ttu p16"
+              >
                 Blog
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/" className="nav-link fc-h1 transit2 ttu p16">
+              <Link
+                onClick={() => scrollToSection("contact-id")}
+                className="nav-link fc-h1 transit2 ttu p16"
+              >
                 Contact
               </Link>
             </li>

@@ -11,7 +11,7 @@ function Testimonial() {
         What Clients Say
       </h4>
       <h2 className="section-heading fw7 fs60 mb32 fc2">Testimonial</h2>
-      <div className="testimonial-card-box ptb32 df aie fww w85 mlra pr">
+      <div className="testimonial-card-box ptb32 mt24 df aie fww w85 mlra pr">
         <div className="testimonial-person-detail flx33 zi3">
           <div className="person-details mr24 br12 p32 bg-bs-01 tal ">
             <div className="person-card-img mb40 ofh df br12">

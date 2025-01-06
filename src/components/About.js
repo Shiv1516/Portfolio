@@ -2,7 +2,10 @@ import React from "react";
 
 function About() {
   return (
-    <div className="about-section brd-b1 wrapper df fww aic ptb80">
+    <div
+      className="about-section brd-b1 wrapper df fww aic ptb80"
+      id="about-id"
+    >
       <div className="about-left p32">
         <img src="/images/img_01.jpg" alt="img" className="w100 br50 brd1" />
       </div>
