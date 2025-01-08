@@ -426,8 +426,8 @@ table {
 .lh48 {
   line-height: 48px;
 }
-.lh80 {
-  line-height: 80px;
+.lh70 {
+  line-height: 70px;
 }
 .ls0 {
   letter-spacing: 0.5px;
@@ -1133,3 +1133,9 @@ table {
   width: 60px;
   border-radius: 50%;
 }
+
+/* .about-left:before {
+  width: 100%;
+  height: calc(100%-150px);
+  z-index: -1;
+} */
