@@ -97,7 +97,7 @@ function About() {
         </div>
       </div>
       <div className="flx1 df jce">
-        <div className="about-left ml24 bef pr df jce bg-bs-01 w85">
+        <div className="about-left ml24 df jce bg-bs-01 w85 br12">
           <img
             src="/images/banner-01.png"
             alt="img"
