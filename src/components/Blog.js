@@ -16,7 +16,7 @@ function Blog() {
           <div className="blog-card br12 p32 bg-bs-01 m16">
             <div className="blog-card-img mb24 ofh df br12">
               <img
-                src="/images/portfolio-01.jpg"
+                src="/images/blog-01.jpg"
                 alt="portfolio"
                 className="port-img w100 transit2"
               />
@@ -40,7 +40,7 @@ function Blog() {
           <div className="blog-card br12 p32 bg-bs-01 m16">
             <div className="blog-card-img mb24 ofh df br12">
               <img
-                src="/images/portfolio-01.jpg"
+                src="/images/blog-01.jpg"
                 alt="portfolio"
                 className="port-img w100 transit2"
               />
@@ -64,7 +64,7 @@ function Blog() {
           <div className="blog-card br12 p32 bg-bs-01 m16">
             <div className="blog-card-img mb24 ofh df br12">
               <img
-                src="/images/portfolio-01.jpg"
+                src="/images/blog-01.jpg"
                 alt="portfolio"
                 className="port-img w100 transit2"
               />
