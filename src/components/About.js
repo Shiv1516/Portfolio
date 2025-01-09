@@ -6,15 +6,6 @@ import { FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 
 function About() {
-  // const text = ["Developer.", "UI Developer.", "Web Developer."];
-  // const [currenttextindex, setcurrenttextindex] = useState(0);
-  // useEffect(() => {
-  //   const interval = setInterval(() => {
-  //     setcurrenttextindex((prevIndex) => (prevIndex + 1) % text.length);
-  //   }, 5000);
-  //   return () => clearInterval(interval);
-  // }, []);
-
   const text = [
     "Developer.",
     "UI Developer.",
@@ -102,10 +93,10 @@ function About() {
           </div>
         </div>
       </div>
-      <div className="flx1 df jce">
+      <div className="about-banner-img flx1 df jce">
         <div className="about-left ml24 bef pr df w85 br12">
           <img
-            src="/images/banner-01.png"
+            src="/images/banner-img.png"
             alt="img"
             className="abou-img w100 zi2"
           />
