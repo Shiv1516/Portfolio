@@ -15,7 +15,12 @@ function About() {
   //   return () => clearInterval(interval);
   // }, []);
 
-  const text = ["Developer.", "UI Developer.", "Web Developer."];
+  const text = [
+    "Developer.",
+    "UI Developer.",
+    "Web Developer.",
+    "Frontend Developer",
+  ];
   const [currentText, setCurrentText] = useState("");
   const [currentTextIndex, setCurrentTextIndex] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
@@ -43,9 +48,10 @@ function About() {
     const timer = setTimeout(handleTyping, speed);
     return () => clearTimeout(timer);
   }, [currentText, isDeleting, currentTextIndex, speed]);
+
   return (
     <div
-      className="about-section brd-b1 wrapper df fww aic mt32 ptb80"
+      className="about-section brd-b1 wrapper df fww aic ptb80"
       id="about-id"
     >
       <div className="about-content flx50">
@@ -53,11 +59,11 @@ function About() {
           <h4 className="section-subheading fs14 mb32 fw5 ls2 ttu">
             Welcome to my world
           </h4>
-          <h2 className="section-heading fw7 fs60 lh70 mb32 fc2">
-            Hi, I’m{" "}
-            <span className="fc3">
-              Jone Lee <br />a
-            </span>{" "}
+          <h2 className="section-heading fw7 fs52 lh70 mb32 fc2">
+            Hi, I’m <br />
+            <span className="fc3 mr12">
+              Shivnilay Srivastav <br /> a
+            </span>
             <span>{text[currentTextIndex]}</span>
           </h2>
           <p className="section-sub-heading lh30 fs18 mb32">
@@ -97,11 +103,11 @@ function About() {
         </div>
       </div>
       <div className="flx1 df jce">
-        <div className="about-left ml24 df jce bg-bs-01 w85 br12">
+        <div className="about-left ml24 bef pr df w85 br12">
           <img
             src="/images/banner-01.png"
             alt="img"
-            className="abou-img w100"
+            className="abou-img w100 zi2"
           />
         </div>
       </div>
