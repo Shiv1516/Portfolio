@@ -50,7 +50,7 @@ const Pricing = () => {
             </li>
           </ul>
           {activepricing === "static" && (
-            <div className="static-pricing detail ptb48 plr48">
+            <div className="static-pricing-detail ptb48 plr48">
               <div className="static-detail-box df jcsb aic fww mb32">
                 <div className="static-detail ">
                   <h3 className="static-pricing-heading fs28 fw7 mb16">
@@ -127,7 +127,7 @@ const Pricing = () => {
             </div>
           )}
           {activepricing === "standard" && (
-            <div className="standard-pricing detail ptb48 plr48">
+            <div className="standard-pricing-detail ptb48 plr48">
               <div className="static-detail-box df jcsb aic fww mb32">
                 <div className="static-detail ">
                   <h3 className="static-pricing-heading fs28 fw7 mb16">
@@ -204,7 +204,7 @@ const Pricing = () => {
             </div>
           )}
           {activepricing === "premium" && (
-            <div className="premium-pricing detail ptb48 plr48">
+            <div className="premium-pricing-detail ptb48 plr48">
               <div className="static-detail-box df jcsb aic fww mb32">
                 <div className="static-detail ">
                   <h3 className="static-pricing-heading fs28 fw7 mb16">
