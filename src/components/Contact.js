@@ -7,6 +7,10 @@ import { FaXTwitter } from "react-icons/fa6";
 import { FaArrowRight } from "react-icons/fa6";
 
 function Contact() {
+  const handlemail = () => {
+    window.open("mailto:shivnilaysrivastav@gmail.com", "_blank");
+  };
+
   return (
     <div className="contact-section ptb80 tac wrapper brd-b1" id="contact-id">
       <h4 className="section-subheading fs14 mb20 fc3 fw5 ls2 ttu">Contact</h4>
@@ -44,7 +48,8 @@ function Contact() {
               <li className="contact-item df mb12">
                 Email:
                 <Link
-                  to="mailto:shivnilaysrivastav@gmail.com"
+                  // to="mailto:shivnilaysrivastav@gmail.com"
+                  onClick={handlemail}
                   className="contact-item-hov transit2 aft pr fc-h1 ml12"
                 >
                   shivnilaysrivastav@gmail.com

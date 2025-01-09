@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-
+import { MdMailOutline } from "react-icons/md";
 function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
 
@@ -28,6 +28,9 @@ function Header() {
         block: "start",
       });
     }
+  };
+  const handlemail = () => {
+    window.open("mailto:shivnilaysrivastav@gmail.com", "_blank");
   };
 
   return (
@@ -114,10 +117,10 @@ function Header() {
           </ul>
           <div>
             <Link
-              to="/"
-              className="talk-btn fc3 transit2 br8 fs14 fw6 fc-h2 ttu plr16 ptb24 bg-bs-01 mlr12"
+              onClick={handlemail}
+              className="talk-btn fc3 transit2 br8 fs14 fw6 fc-h2 plr16 ptb20 bg-bs-01 mlr12 df"
             >
-              Buy Now
+              <MdMailOutline className="mr8" /> Mail
             </Link>
           </div>
         </nav>
