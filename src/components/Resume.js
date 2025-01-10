@@ -44,68 +44,148 @@ const Resume = () => {
           </li>
         </ul>
         {activeresume === "education" && (
-          <div className="education-details ptb40 tal">
+          <div className="education-details ptb40 tal df fww">
             <div className="education-cards-box flx50">
-              <div className="education-cards pl40 brd-b3">
-                <div className="education-card bef pr fc1 plr40 ptb48 mt48 bg-bs-01 br12">
-                  <div className="education-top-box df jcsb aic pb48 brd-b2">
-                    <div className="education-detail">
-                      <h2 className="education-heading mb16 fs24 fw5">
-                        Personal Portfolio April Fools
-                      </h2>
-                      <p className="eductaion-subheading fs14">
-                        University of DVI (1997 - 2001)
+              <div className="education-inner-card mr24">
+                <p className="education-detail-year fc3 fw5 ls1 fs14 mb16">
+                  2007-2010
+                </p>
+                <h3 className="education-detail-heading fs36 fw6 mb40">
+                  Education Quality
+                </h3>
+                <div className="education-cards pl40 brd-b3">
+                  <div className="education-card bef aft pr zi1 fc1 plr40 ptb48 mt48 bg-bs-01 br12">
+                    <div className="education-top-box df jcsb aic pb48 brd-b2">
+                      <div className="education-detail">
+                        <h2 className="education-heading mb16 fs24 fw5">
+                          Personal Portfolio April Fools
+                        </h2>
+                        <p className="eductaion-subheading fs14">
+                          University of DVI (1997 - 2001)
+                        </p>
+                      </div>
+                      <p className="education-persent fs14 bg3 br8 p12 fc3 fw5 bs1">
+                        4.30/5
                       </p>
                     </div>
-                    <p className="education-persent fs14 bg3 br8 p12 fc3 fw5 bs1">
-                      4.30/5
+                    <p className="education-box-details lh30 fw4 fs18 pt32">
+                      The education should be very interactual. Ut tincidunt est
+                      ac dolor aliquam sodales. Phasellus sed mauris hendrerit,
+                      laoreet sem in, lobortis mauris hendrerit ante.
                     </p>
                   </div>
-                  <p className="education-box-details lh30 fw4 fs18 pt32">
-                    The education should be very interactual. Ut tincidunt est
-                    ac dolor aliquam sodales. Phasellus sed mauris hendrerit,
-                    laoreet sem in, lobortis mauris hendrerit ante.
-                  </p>
+                  <div className="education-card bef aft pr zi1 fc1 plr40 ptb48 mt48 bg-bs-01 br12">
+                    <div className="education-top-box df jcsb aic pb48 brd-b2">
+                      <div className="education-detail">
+                        <h2 className="education-heading mb16 fs24 fw5">
+                          Personal Portfolio April Fools
+                        </h2>
+                        <p className="eductaion-subheading fs14">
+                          University of DVI (1997 - 2001)
+                        </p>
+                      </div>
+                      <p className="education-persent fs14 bg3 br8 p12 fc3 fw5 bs1">
+                        4.30/5
+                      </p>
+                    </div>
+                    <p className="education-box-details lh30 fw4 fs18 pt32">
+                      The education should be very interactual. Ut tincidunt est
+                      ac dolor aliquam sodales. Phasellus sed mauris hendrerit,
+                      laoreet sem in, lobortis mauris hendrerit ante.
+                    </p>
+                  </div>
+                  <div className="education-card bef aft pr zi1 fc1 plr40 ptb48 mt48 bg-bs-01 br12">
+                    <div className="education-top-box df jcsb aic pb48 brd-b2">
+                      <div className="education-detail">
+                        <h2 className="education-heading mb16 fs24 fw5">
+                          Personal Portfolio April Fools
+                        </h2>
+                        <p className="eductaion-subheading fs14">
+                          University of DVI (1997 - 2001)
+                        </p>
+                      </div>
+                      <p className="education-persent fs14 bg3 br8 p12 fc3 fw5 bs1">
+                        4.30/5
+                      </p>
+                    </div>
+                    <p className="education-box-details lh30 fw4 fs18 pt32">
+                      The education should be very interactual. Ut tincidunt est
+                      ac dolor aliquam sodales. Phasellus sed mauris hendrerit,
+                      laoreet sem in, lobortis mauris hendrerit ante.
+                    </p>
+                  </div>
                 </div>
-                <div className="education-card fc1 plr40 ptb48 mt48 bg-bs-01 br12">
-                  <div className="education-top-box df jcsb aic pb48 brd-b2">
-                    <div className="education-detail">
-                      <h2 className="education-heading mb16 fs24 fw5">
-                        Personal Portfolio April Fools
-                      </h2>
-                      <p className="eductaion-subheading fs14">
-                        University of DVI (1997 - 2001)
+              </div>
+            </div>
+            <div className="education-cards-box flx50">
+              <div className="education-inner-card ml24">
+                <p className="education-detail-year fc3 fw5 ls1 fs14 mb16">
+                  2007-2010
+                </p>
+                <h3 className="education-detail-heading fs36 fw6 mb40">
+                  Education Quality
+                </h3>
+                <div className="education-cards pl40 brd-b3">
+                  <div className="education-card bef aft pr zi1 fc1 plr40 ptb48 mt48 bg-bs-01 br12">
+                    <div className="education-top-box df jcsb aic pb48 brd-b2">
+                      <div className="education-detail">
+                        <h2 className="education-heading mb16 fs24 fw5">
+                          Personal Portfolio April Fools
+                        </h2>
+                        <p className="eductaion-subheading fs14">
+                          University of DVI (1997 - 2001)
+                        </p>
+                      </div>
+                      <p className="education-persent fs14 bg3 br8 p12 fc3 fw5 bs1">
+                        4.30/5
                       </p>
                     </div>
-                    <p className="education-persent fs14 bg3 br8 p12 fc3 fw5 bs1">
-                      4.30/5
+                    <p className="education-box-details lh30 fw4 fs18 pt32">
+                      The education should be very interactual. Ut tincidunt est
+                      ac dolor aliquam sodales. Phasellus sed mauris hendrerit,
+                      laoreet sem in, lobortis mauris hendrerit ante.
                     </p>
                   </div>
-                  <p className="education-box-details lh30 fw4 fs18 pt32">
-                    The education should be very interactual. Ut tincidunt est
-                    ac dolor aliquam sodales. Phasellus sed mauris hendrerit,
-                    laoreet sem in, lobortis mauris hendrerit ante.
-                  </p>
-                </div>
-                <div className="education-card fc1 plr40 ptb48 mt48 bg-bs-01 br12">
-                  <div className="education-top-box df jcsb aic pb48 brd-b2">
-                    <div className="education-detail">
-                      <h2 className="education-heading mb16 fs24 fw5">
-                        Personal Portfolio April Fools
-                      </h2>
-                      <p className="eductaion-subheading fs14">
-                        University of DVI (1997 - 2001)
+                  <div className="education-card bef aft pr zi1 fc1 plr40 ptb48 mt48 bg-bs-01 br12">
+                    <div className="education-top-box df jcsb aic pb48 brd-b2">
+                      <div className="education-detail">
+                        <h2 className="education-heading mb16 fs24 fw5">
+                          Personal Portfolio April Fools
+                        </h2>
+                        <p className="eductaion-subheading fs14">
+                          University of DVI (1997 - 2001)
+                        </p>
+                      </div>
+                      <p className="education-persent fs14 bg3 br8 p12 fc3 fw5 bs1">
+                        4.30/5
                       </p>
                     </div>
-                    <p className="education-persent fs14 bg3 br8 p12 fc3 fw5 bs1">
-                      4.30/5
+                    <p className="education-box-details lh30 fw4 fs18 pt32">
+                      The education should be very interactual. Ut tincidunt est
+                      ac dolor aliquam sodales. Phasellus sed mauris hendrerit,
+                      laoreet sem in, lobortis mauris hendrerit ante.
                     </p>
                   </div>
-                  <p className="education-box-details lh30 fw4 fs18 pt32">
-                    The education should be very interactual. Ut tincidunt est
-                    ac dolor aliquam sodales. Phasellus sed mauris hendrerit,
-                    laoreet sem in, lobortis mauris hendrerit ante.
-                  </p>
+                  <div className="education-card bef aft pr zi1 fc1 plr40 ptb48 mt48 bg-bs-01 br12">
+                    <div className="education-top-box df jcsb aic pb48 brd-b2">
+                      <div className="education-detail">
+                        <h2 className="education-heading mb16 fs24 fw5">
+                          Personal Portfolio April Fools
+                        </h2>
+                        <p className="eductaion-subheading fs14">
+                          University of DVI (1997 - 2001)
+                        </p>
+                      </div>
+                      <p className="education-persent fs14 bg3 br8 p12 fc3 fw5 bs1">
+                        4.30/5
+                      </p>
+                    </div>
+                    <p className="education-box-details lh30 fw4 fs18 pt32">
+                      The education should be very interactual. Ut tincidunt est
+                      ac dolor aliquam sodales. Phasellus sed mauris hendrerit,
+                      laoreet sem in, lobortis mauris hendrerit ante.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -117,13 +197,299 @@ const Resume = () => {
           </div>
         )}
         {activeresume === "experience" && (
-          <div className="experience-details ptb40 fs24 fw7">
-            Experience Content will be added in future
+          <div className="education-details ptb40 tal df fww">
+            <div className="education-cards-box flx50">
+              <div className="education-inner-card mr24">
+                <p className="education-detail-year fc3 fw5 ls1 fs14 mb16">
+                  2007-2010
+                </p>
+                <h3 className="education-detail-heading fs36 fw6 mb40">
+                  Education Quality
+                </h3>
+                <div className="education-cards pl40 brd-b3">
+                  <div className="education-card bef aft pr zi1 fc1 plr40 ptb48 mt48 bg-bs-01 br12">
+                    <div className="education-top-box df jcsb aic pb48 brd-b2">
+                      <div className="education-detail">
+                        <h2 className="education-heading mb16 fs24 fw5">
+                          Personal Portfolio April Fools
+                        </h2>
+                        <p className="eductaion-subheading fs14">
+                          University of DVI (1997 - 2001)
+                        </p>
+                      </div>
+                      <p className="education-persent fs14 bg3 br8 p12 fc3 fw5 bs1">
+                        4.30/5
+                      </p>
+                    </div>
+                    <p className="education-box-details lh30 fw4 fs18 pt32">
+                      The education should be very interactual. Ut tincidunt est
+                      ac dolor aliquam sodales. Phasellus sed mauris hendrerit,
+                      laoreet sem in, lobortis mauris hendrerit ante.
+                    </p>
+                  </div>
+                  <div className="education-card bef aft pr zi1 fc1 plr40 ptb48 mt48 bg-bs-01 br12">
+                    <div className="education-top-box df jcsb aic pb48 brd-b2">
+                      <div className="education-detail">
+                        <h2 className="education-heading mb16 fs24 fw5">
+                          Personal Portfolio April Fools
+                        </h2>
+                        <p className="eductaion-subheading fs14">
+                          University of DVI (1997 - 2001)
+                        </p>
+                      </div>
+                      <p className="education-persent fs14 bg3 br8 p12 fc3 fw5 bs1">
+                        4.30/5
+                      </p>
+                    </div>
+                    <p className="education-box-details lh30 fw4 fs18 pt32">
+                      The education should be very interactual. Ut tincidunt est
+                      ac dolor aliquam sodales. Phasellus sed mauris hendrerit,
+                      laoreet sem in, lobortis mauris hendrerit ante.
+                    </p>
+                  </div>
+                  <div className="education-card bef aft pr zi1 fc1 plr40 ptb48 mt48 bg-bs-01 br12">
+                    <div className="education-top-box df jcsb aic pb48 brd-b2">
+                      <div className="education-detail">
+                        <h2 className="education-heading mb16 fs24 fw5">
+                          Personal Portfolio April Fools
+                        </h2>
+                        <p className="eductaion-subheading fs14">
+                          University of DVI (1997 - 2001)
+                        </p>
+                      </div>
+                      <p className="education-persent fs14 bg3 br8 p12 fc3 fw5 bs1">
+                        4.30/5
+                      </p>
+                    </div>
+                    <p className="education-box-details lh30 fw4 fs18 pt32">
+                      The education should be very interactual. Ut tincidunt est
+                      ac dolor aliquam sodales. Phasellus sed mauris hendrerit,
+                      laoreet sem in, lobortis mauris hendrerit ante.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="education-cards-box flx50">
+              <div className="education-inner-card ml24">
+                <p className="education-detail-year fc3 fw5 ls1 fs14 mb16">
+                  2007-2010
+                </p>
+                <h3 className="education-detail-heading fs36 fw6 mb40">
+                  Education Quality
+                </h3>
+                <div className="education-cards pl40 brd-b3">
+                  <div className="education-card bef aft pr zi1 fc1 plr40 ptb48 mt48 bg-bs-01 br12">
+                    <div className="education-top-box df jcsb aic pb48 brd-b2">
+                      <div className="education-detail">
+                        <h2 className="education-heading mb16 fs24 fw5">
+                          Personal Portfolio April Fools
+                        </h2>
+                        <p className="eductaion-subheading fs14">
+                          University of DVI (1997 - 2001)
+                        </p>
+                      </div>
+                      <p className="education-persent fs14 bg3 br8 p12 fc3 fw5 bs1">
+                        4.30/5
+                      </p>
+                    </div>
+                    <p className="education-box-details lh30 fw4 fs18 pt32">
+                      The education should be very interactual. Ut tincidunt est
+                      ac dolor aliquam sodales. Phasellus sed mauris hendrerit,
+                      laoreet sem in, lobortis mauris hendrerit ante.
+                    </p>
+                  </div>
+                  <div className="education-card bef aft pr zi1 fc1 plr40 ptb48 mt48 bg-bs-01 br12">
+                    <div className="education-top-box df jcsb aic pb48 brd-b2">
+                      <div className="education-detail">
+                        <h2 className="education-heading mb16 fs24 fw5">
+                          Personal Portfolio April Fools
+                        </h2>
+                        <p className="eductaion-subheading fs14">
+                          University of DVI (1997 - 2001)
+                        </p>
+                      </div>
+                      <p className="education-persent fs14 bg3 br8 p12 fc3 fw5 bs1">
+                        4.30/5
+                      </p>
+                    </div>
+                    <p className="education-box-details lh30 fw4 fs18 pt32">
+                      The education should be very interactual. Ut tincidunt est
+                      ac dolor aliquam sodales. Phasellus sed mauris hendrerit,
+                      laoreet sem in, lobortis mauris hendrerit ante.
+                    </p>
+                  </div>
+                  <div className="education-card bef aft pr zi1 fc1 plr40 ptb48 mt48 bg-bs-01 br12">
+                    <div className="education-top-box df jcsb aic pb48 brd-b2">
+                      <div className="education-detail">
+                        <h2 className="education-heading mb16 fs24 fw5">
+                          Personal Portfolio April Fools
+                        </h2>
+                        <p className="eductaion-subheading fs14">
+                          University of DVI (1997 - 2001)
+                        </p>
+                      </div>
+                      <p className="education-persent fs14 bg3 br8 p12 fc3 fw5 bs1">
+                        4.30/5
+                      </p>
+                    </div>
+                    <p className="education-box-details lh30 fw4 fs18 pt32">
+                      The education should be very interactual. Ut tincidunt est
+                      ac dolor aliquam sodales. Phasellus sed mauris hendrerit,
+                      laoreet sem in, lobortis mauris hendrerit ante.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         )}
         {activeresume === "interview" && (
-          <div className="interview-details ptb40 fs24 fw7">
-            Interview Content will be added in future
+          <div className="education-details ptb40 tal df fww">
+            <div className="education-cards-box flx50">
+              <div className="education-inner-card mr24">
+                <p className="education-detail-year fc3 fw5 ls1 fs14 mb16">
+                  2007-2010
+                </p>
+                <h3 className="education-detail-heading fs36 fw6 mb40">
+                  Education Quality
+                </h3>
+                <div className="education-cards pl40 brd-b3">
+                  <div className="education-card bef aft pr zi1 fc1 plr40 ptb48 mt48 bg-bs-01 br12">
+                    <div className="education-top-box df jcsb aic pb48 brd-b2">
+                      <div className="education-detail">
+                        <h2 className="education-heading mb16 fs24 fw5">
+                          Personal Portfolio April Fools
+                        </h2>
+                        <p className="eductaion-subheading fs14">
+                          University of DVI (1997 - 2001)
+                        </p>
+                      </div>
+                      <p className="education-persent fs14 bg3 br8 p12 fc3 fw5 bs1">
+                        4.30/5
+                      </p>
+                    </div>
+                    <p className="education-box-details lh30 fw4 fs18 pt32">
+                      The education should be very interactual. Ut tincidunt est
+                      ac dolor aliquam sodales. Phasellus sed mauris hendrerit,
+                      laoreet sem in, lobortis mauris hendrerit ante.
+                    </p>
+                  </div>
+                  <div className="education-card bef aft pr zi1 fc1 plr40 ptb48 mt48 bg-bs-01 br12">
+                    <div className="education-top-box df jcsb aic pb48 brd-b2">
+                      <div className="education-detail">
+                        <h2 className="education-heading mb16 fs24 fw5">
+                          Personal Portfolio April Fools
+                        </h2>
+                        <p className="eductaion-subheading fs14">
+                          University of DVI (1997 - 2001)
+                        </p>
+                      </div>
+                      <p className="education-persent fs14 bg3 br8 p12 fc3 fw5 bs1">
+                        4.30/5
+                      </p>
+                    </div>
+                    <p className="education-box-details lh30 fw4 fs18 pt32">
+                      The education should be very interactual. Ut tincidunt est
+                      ac dolor aliquam sodales. Phasellus sed mauris hendrerit,
+                      laoreet sem in, lobortis mauris hendrerit ante.
+                    </p>
+                  </div>
+                  <div className="education-card bef aft pr zi1 fc1 plr40 ptb48 mt48 bg-bs-01 br12">
+                    <div className="education-top-box df jcsb aic pb48 brd-b2">
+                      <div className="education-detail">
+                        <h2 className="education-heading mb16 fs24 fw5">
+                          Personal Portfolio April Fools
+                        </h2>
+                        <p className="eductaion-subheading fs14">
+                          University of DVI (1997 - 2001)
+                        </p>
+                      </div>
+                      <p className="education-persent fs14 bg3 br8 p12 fc3 fw5 bs1">
+                        4.30/5
+                      </p>
+                    </div>
+                    <p className="education-box-details lh30 fw4 fs18 pt32">
+                      The education should be very interactual. Ut tincidunt est
+                      ac dolor aliquam sodales. Phasellus sed mauris hendrerit,
+                      laoreet sem in, lobortis mauris hendrerit ante.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="education-cards-box flx50">
+              <div className="education-inner-card ml24">
+                <p className="education-detail-year fc3 fw5 ls1 fs14 mb16">
+                  2007-2010
+                </p>
+                <h3 className="education-detail-heading fs36 fw6 mb40">
+                  Education Quality
+                </h3>
+                <div className="education-cards pl40 brd-b3">
+                  <div className="education-card bef aft pr zi1 fc1 plr40 ptb48 mt48 bg-bs-01 br12">
+                    <div className="education-top-box df jcsb aic pb48 brd-b2">
+                      <div className="education-detail">
+                        <h2 className="education-heading mb16 fs24 fw5">
+                          Personal Portfolio April Fools
+                        </h2>
+                        <p className="eductaion-subheading fs14">
+                          University of DVI (1997 - 2001)
+                        </p>
+                      </div>
+                      <p className="education-persent fs14 bg3 br8 p12 fc3 fw5 bs1">
+                        4.30/5
+                      </p>
+                    </div>
+                    <p className="education-box-details lh30 fw4 fs18 pt32">
+                      The education should be very interactual. Ut tincidunt est
+                      ac dolor aliquam sodales. Phasellus sed mauris hendrerit,
+                      laoreet sem in, lobortis mauris hendrerit ante.
+                    </p>
+                  </div>
+                  <div className="education-card bef aft pr zi1 fc1 plr40 ptb48 mt48 bg-bs-01 br12">
+                    <div className="education-top-box df jcsb aic pb48 brd-b2">
+                      <div className="education-detail">
+                        <h2 className="education-heading mb16 fs24 fw5">
+                          Personal Portfolio April Fools
+                        </h2>
+                        <p className="eductaion-subheading fs14">
+                          University of DVI (1997 - 2001)
+                        </p>
+                      </div>
+                      <p className="education-persent fs14 bg3 br8 p12 fc3 fw5 bs1">
+                        4.30/5
+                      </p>
+                    </div>
+                    <p className="education-box-details lh30 fw4 fs18 pt32">
+                      The education should be very interactual. Ut tincidunt est
+                      ac dolor aliquam sodales. Phasellus sed mauris hendrerit,
+                      laoreet sem in, lobortis mauris hendrerit ante.
+                    </p>
+                  </div>
+                  <div className="education-card bef aft pr zi1 fc1 plr40 ptb48 mt48 bg-bs-01 br12">
+                    <div className="education-top-box df jcsb aic pb48 brd-b2">
+                      <div className="education-detail">
+                        <h2 className="education-heading mb16 fs24 fw5">
+                          Personal Portfolio April Fools
+                        </h2>
+                        <p className="eductaion-subheading fs14">
+                          University of DVI (1997 - 2001)
+                        </p>
+                      </div>
+                      <p className="education-persent fs14 bg3 br8 p12 fc3 fw5 bs1">
+                        4.30/5
+                      </p>
+                    </div>
+                    <p className="education-box-details lh30 fw4 fs18 pt32">
+                      The education should be very interactual. Ut tincidunt est
+                      ac dolor aliquam sodales. Phasellus sed mauris hendrerit,
+                      laoreet sem in, lobortis mauris hendrerit ante.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         )}
       </div>

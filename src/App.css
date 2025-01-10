@@ -1091,8 +1091,7 @@ table {
 }
 
 /* testimonial section css */
-.testimonial-des-card:before,
-.education-card:before {
+.testimonial-des-card:before {
   height: 5px;
   width: 50px;
   z-index: -1;
@@ -1162,4 +1161,24 @@ table {
   background: #fe024e;
   color: #fff;
   box-shadow: none;
+}
+.education-card:before {
+  height: 5px;
+  width: 45px;
+  z-index: 0;
+  background-color: #d7d8da;
+  right: 100%;
+  top: 50px;
+}
+.education-card:after {
+  border: 5px solid #d9dee2;
+  background: #ecf0f3;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  top: 42px;
+  left: -8.5%;
+}
+.education-card:hover:after {
+  background: #fe024e;
 }
