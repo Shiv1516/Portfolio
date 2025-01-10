@@ -44,8 +44,71 @@ const Resume = () => {
           </li>
         </ul>
         {activeresume === "education" && (
-          <div className="education-details ptb40 fs24 fw7">
-            Eductaion Content will be added in future
+          <div className="education-details ptb40 tal">
+            <div className="education-cards-box flx50">
+              <div className="education-cards pl40 brd-b3">
+                <div className="education-card bef pr fc1 plr40 ptb48 mt48 bg-bs-01 br12">
+                  <div className="education-top-box df jcsb aic pb48 brd-b2">
+                    <div className="education-detail">
+                      <h2 className="education-heading mb16 fs24 fw5">
+                        Personal Portfolio April Fools
+                      </h2>
+                      <p className="eductaion-subheading fs14">
+                        University of DVI (1997 - 2001)
+                      </p>
+                    </div>
+                    <p className="education-persent fs14 bg3 br8 p12 fc3 fw5 bs1">
+                      4.30/5
+                    </p>
+                  </div>
+                  <p className="education-box-details lh30 fw4 fs18 pt32">
+                    The education should be very interactual. Ut tincidunt est
+                    ac dolor aliquam sodales. Phasellus sed mauris hendrerit,
+                    laoreet sem in, lobortis mauris hendrerit ante.
+                  </p>
+                </div>
+                <div className="education-card fc1 plr40 ptb48 mt48 bg-bs-01 br12">
+                  <div className="education-top-box df jcsb aic pb48 brd-b2">
+                    <div className="education-detail">
+                      <h2 className="education-heading mb16 fs24 fw5">
+                        Personal Portfolio April Fools
+                      </h2>
+                      <p className="eductaion-subheading fs14">
+                        University of DVI (1997 - 2001)
+                      </p>
+                    </div>
+                    <p className="education-persent fs14 bg3 br8 p12 fc3 fw5 bs1">
+                      4.30/5
+                    </p>
+                  </div>
+                  <p className="education-box-details lh30 fw4 fs18 pt32">
+                    The education should be very interactual. Ut tincidunt est
+                    ac dolor aliquam sodales. Phasellus sed mauris hendrerit,
+                    laoreet sem in, lobortis mauris hendrerit ante.
+                  </p>
+                </div>
+                <div className="education-card fc1 plr40 ptb48 mt48 bg-bs-01 br12">
+                  <div className="education-top-box df jcsb aic pb48 brd-b2">
+                    <div className="education-detail">
+                      <h2 className="education-heading mb16 fs24 fw5">
+                        Personal Portfolio April Fools
+                      </h2>
+                      <p className="eductaion-subheading fs14">
+                        University of DVI (1997 - 2001)
+                      </p>
+                    </div>
+                    <p className="education-persent fs14 bg3 br8 p12 fc3 fw5 bs1">
+                      4.30/5
+                    </p>
+                  </div>
+                  <p className="education-box-details lh30 fw4 fs18 pt32">
+                    The education should be very interactual. Ut tincidunt est
+                    ac dolor aliquam sodales. Phasellus sed mauris hendrerit,
+                    laoreet sem in, lobortis mauris hendrerit ante.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         )}
         {activeresume === "professional-skills" && (
