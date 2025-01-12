@@ -192,8 +192,83 @@ const Resume = () => {
           </div>
         )}
         {activeresume === "professional-skills" && (
-          <div className="professional-details ptb40 fs24 fw7">
-            Professional sill Content will be added in future
+          <div className="education-details ptb40 tal df fww">
+            <div className="education-cards-box flx50">
+              <div className="education-inner-card mr24">
+                <p className="education-detail-year fc3 fw5 ls1 fs14 mb16">
+                  Features
+                </p>
+                <h3 className="education-detail-heading fs36 fw6 mb40">
+                  Design Skill
+                </h3>
+                <div className="skills-name-list mb40 pr">
+                  <h4 className="skills-name mb16 fs14 ttu ls1 fw5">
+                    Photoshot
+                  </h4>
+                  <div className="skill-percent h10 df bg4 br12"></div>
+                  <span className="skill-percentage pa fs14 r0">100%</span>
+                </div>
+                <div className="skills-name-list mb40 pr">
+                  <h4 className="skills-name mb16 fs14 ttu ls1 fw5">
+                    Photoshot
+                  </h4>
+                  <div className="skill-percent h10 df bg4 br12"></div>
+                  <span className="skill-percentage pa fs14 r0">100%</span>
+                </div>
+                <div className="skills-name-list mb40 pr">
+                  <h4 className="skills-name mb16 fs14 ttu ls1 fw5">
+                    Photoshot
+                  </h4>
+                  <div className="skill-percent h10 df bg4 br12"></div>
+                  <span className="skill-percentage pa fs14 r0">100%</span>
+                </div>
+                <div className="skills-name-list mb40 pr">
+                  <h4 className="skills-name mb16 fs14 ttu ls1 fw5">
+                    Photoshot
+                  </h4>
+                  <div className="skill-percent h10 df bg4 br12"></div>
+                  <span className="skill-percentage pa fs14 r0">100%</span>
+                </div>
+              </div>
+            </div>
+            <div className="education-cards-box flx50">
+              <div className="education-inner-card ml24">
+                <p className="education-detail-year fc3 fw5 ls1 fs14 mb16">
+                  Features
+                </p>
+                <h3 className="education-detail-heading fs36 fw6 mb40">
+                  Design Skill
+                </h3>
+                <div className="skills-name-list mb40 pr">
+                  <h4 className="skills-name mb16 fs14 ttu ls1 fw5">
+                    Photoshot
+                  </h4>
+                  <div className="skill-percent h10 df bg4 br12"></div>
+                  <span className="skill-percentage pa fs14 r0">100%</span>
+                </div>
+                <div className="skills-name-list mb40 pr">
+                  <h4 className="skills-name mb16 fs14 ttu ls1 fw5">
+                    Photoshot
+                  </h4>
+                  <div className="skill-percent h10 df bg4 br12"></div>
+                  <span className="skill-percentage pa fs14 r0">100%</span>
+                </div>
+                <div className="skills-name-list mb40 pr">
+                  <h4 className="skills-name mb16 fs14 ttu ls1 fw5">
+                    Photoshot
+                  </h4>
+                  <div className="skill-percent h10 df bg4 br12"></div>
+                  <span className="skill-percentage pa fs14 r0">100%</span>
+                </div>
+                <div className="skills-name-list mb40 pr">
+                  <h4 className="skills-name mb16 fs14 ttu ls1 fw5">
+                    Photoshot
+                  </h4>
+                  <div className="skill-percent h10 df bg4 br12"></div>
+                  <span className="skill-percentage pa fs14 r0">100%</span>
+                </div>
+              </div>
+            </div>
           </div>
         )}
         {activeresume === "experience" && (
