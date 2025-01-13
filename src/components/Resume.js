@@ -203,30 +203,47 @@ const Resume = () => {
                 </h3>
                 <div className="skills-name-list mb40 pr">
                   <h4 className="skills-name mb16 fs14 ttu ls1 fw5">
-                    Photoshot
+                    Web Designing
                   </h4>
-                  <div className="skill-percent h14 df bg4 br12"></div>
+                  <div className="skill-percent h14 aic df bg4 br12 ofh">
+                    <span className="bg-bs-02 w100 h9 br12 mlr3"></span>
+                  </div>
                   <span className="skill-percentage pa fs14 r0">100%</span>
                 </div>
                 <div className="skills-name-list mb40 pr">
                   <h4 className="skills-name mb16 fs14 ttu ls1 fw5">
-                    Photoshot
+                    App Desiging
                   </h4>
-                  <div className="skill-percent h14 df bg4 br12"></div>
+                  <div className="skill-percent h14 aic df bg4 br12 ofh">
+                    <span className="bg-bs-02 w85 h9 br12 mlr3"></span>
+                  </div>
                   <span className="skill-percentage pa fs14 r0">100%</span>
                 </div>
                 <div className="skills-name-list mb40 pr">
                   <h4 className="skills-name mb16 fs14 ttu ls1 fw5">
-                    Photoshot
+                    Landing Page
                   </h4>
-                  <div className="skill-percent h14 df bg4 br12"></div>
+                  <div className="skill-percent h14 aic df bg4 br12 ofh">
+                    <span className="bg-bs-02 w100 h9 br12 mlr3"></span>
+                  </div>
                   <span className="skill-percentage pa fs14 r0">100%</span>
                 </div>
                 <div className="skills-name-list mb40 pr">
                   <h4 className="skills-name mb16 fs14 ttu ls1 fw5">
-                    Photoshot
+                    Interface
                   </h4>
-                  <div className="skill-percent h14 df bg4 br12"></div>
+                  <div className="skill-percent h14 aic df bg4 br12 ofh">
+                    <span className="bg-bs-02 w50 h9 br12 mlr3"></span>
+                  </div>
+                  <span className="skill-percentage pa fs14 r0">100%</span>
+                </div>
+                <div className="skills-name-list mb40 pr">
+                  <h4 className="skills-name mb16 fs14 ttu ls1 fw5">
+                    Web flow Desiging
+                  </h4>
+                  <div className="skill-percent h14 aic df bg4 br12 ofh">
+                    <span className="bg-bs-02 w85 h9 br12 mlr3"></span>
+                  </div>
                   <span className="skill-percentage pa fs14 r0">100%</span>
                 </div>
               </div>
@@ -240,31 +257,42 @@ const Resume = () => {
                   Development Skill
                 </h3>
                 <div className="skills-name-list mb40 pr">
-                  <h4 className="skills-name mb16 fs14 ttu ls1 fw5">
-                    Photoshot
-                  </h4>
-                  <div className="skill-percent h14 df bg4 br12"></div>
+                  <h4 className="skills-name mb16 fs14 ttu ls1 fw5">HTML</h4>
+                  <div className="skill-percent h14 aic df bg4 br12 ofh">
+                    <span className="bg-bs-02 w100 h9 br12 mlr3"></span>
+                  </div>
+                  <span className="skill-percentage pa fs14 r0">100%</span>
+                </div>
+                <div className="skills-name-list mb40 pr">
+                  <h4 className="skills-name mb16 fs14 ttu ls1 fw5">CSS</h4>
+                  <div className="skill-percent h14 aic df bg4 br12 ofh">
+                    <span className="bg-bs-02 w85 h9 br12 mlr3"></span>
+                  </div>
                   <span className="skill-percentage pa fs14 r0">100%</span>
                 </div>
                 <div className="skills-name-list mb40 pr">
                   <h4 className="skills-name mb16 fs14 ttu ls1 fw5">
-                    Photoshot
+                    Javascript
                   </h4>
-                  <div className="skill-percent h14 df bg4 br12"></div>
+                  <div className="skill-percent h14 aic df bg4 br12 ofh">
+                    <span className="bg-bs-02 w85 h9 br12 mlr3"></span>
+                  </div>
                   <span className="skill-percentage pa fs14 r0">100%</span>
                 </div>
                 <div className="skills-name-list mb40 pr">
                   <h4 className="skills-name mb16 fs14 ttu ls1 fw5">
-                    Photoshot
+                    React JS
                   </h4>
-                  <div className="skill-percent h14 df bg4 br12"></div>
+                  <div className="skill-percent h14 aic df bg4 br12 ofh">
+                    <span className="bg-bs-02 w100 h9 br12 mlr3"></span>
+                  </div>
                   <span className="skill-percentage pa fs14 r0">100%</span>
                 </div>
                 <div className="skills-name-list mb40 pr">
-                  <h4 className="skills-name mb16 fs14 ttu ls1 fw5">
-                    Photoshot
-                  </h4>
-                  <div className="skill-percent h14 df bg4 br12"></div>
+                  <h4 className="skills-name mb16 fs14 ttu ls1 fw5">Next JS</h4>
+                  <div className="skill-percent h14 aic df bg4 br12 ofh">
+                    <span className="bg-bs-02 w85 h9 br12 mlr3"></span>
+                  </div>
                   <span className="skill-percentage pa fs14 r0">100%</span>
                 </div>
               </div>

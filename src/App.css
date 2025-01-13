@@ -597,9 +597,9 @@ table {
   margin-top: 48px;
 }
 
-.ml2,
-.mlr2 {
-  margin-left: 2px;
+.ml3,
+.mlr3 {
+  margin-left: 3px;
 }
 .ml4,
 .mlr4 {
@@ -634,9 +634,9 @@ table {
   margin-left: 48px;
 }
 
-.mr2,
-.mlr2 {
-  margin-right: 2px;
+.mr3,
+.mlr3 {
+  margin-right: 3px;
 }
 .mr4,
 .mlr4 {
@@ -964,6 +964,9 @@ table {
   min-width: 48px;
   max-width: 48px;
 }
+.h9 {
+  height: 9px;
+}
 .h14 {
   height: 14px;
 }
@@ -1198,7 +1201,6 @@ table {
 .education-card:hover:after {
   background: #fe024e;
 }
-
 .skill-percentage {
   top: 28%;
 }
