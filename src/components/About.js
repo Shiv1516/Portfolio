@@ -22,7 +22,7 @@ function About() {
       const fullText = text[currentTextIndex];
       if (isDeleting) {
         setCurrentText((prev) => fullText.substring(0, prev.length - 1));
-        setSpeed(50);
+        setSpeed(40);
       } else {
         setCurrentText((prev) => fullText.substring(0, prev.length + 1));
         setSpeed(150);
@@ -55,7 +55,7 @@ function About() {
             <span className="fc3 mr12">
               Shivnilay Srivastav <br /> a
             </span>
-            <span>{text[currentTextIndex]}</span>
+            <span>{text[currentTextIndex] }</span>
           </h2>
           <p className="section-sub-heading lh30 fs18 mb32">
             I use animation as a third dimension by which to simplify
