@@ -24,7 +24,7 @@ const Resume = () => {
             } ptb32 tac fc-h1`}
             onClick={() => setactiveresume("professional-skills")}
           >
-            professional Skills
+            Professional Skills
           </li>
           <li
             className={`resume-item cp flx25 fc-nav ${

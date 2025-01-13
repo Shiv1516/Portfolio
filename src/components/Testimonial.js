@@ -90,7 +90,7 @@ const Testimonial = () => {
       name: "Jone Duone Joe",
       position: "Operating Officer",
       company: "Bound - Trolola",
-      imgSrc: "/images/testimonial.jpg",
+      imgSrc: "/images/testimonial-01.jpg",
       description:
         "Important fact to nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante. laoreet sem in, lobortis mauris hendrerit ante. laoreet sem in, lobortis mauris hendrerit ante.",
       date: "Upwork - Mar 4, 2016 - Aug 30, 2021",
@@ -108,10 +108,19 @@ const Testimonial = () => {
       name: "John Doe",
       position: "Lead Developer",
       company: "DevCorp Technologies",
-      imgSrc: "/images/testimonial.jpg",
+      imgSrc: "/images/testimonial-02.jpg",
       description:
         "Important fact to nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante. laoreet sem in, lobortis mauris hendrerit ante. laoreet sem in, lobortis mauris hendrerit ante.",
       date: "Upwork - Apr 1, 2017 - Aug 31, 2021",
+    },
+    {
+      name: "Emily Johnson",
+      position: "Project Manager",
+      company: "Creative Minds",
+      imgSrc: "/images/testimonial-01.jpg",
+      description:
+        "Important fact to nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante. laoreet sem in, lobortis mauris hendrerit ante. laoreet sem in, lobortis mauris hendrerit ante.",
+      date: "Freelance - Feb 20, 2019 - Jan 10, 2022",
     },
     {
       name: "Emily Johnson",

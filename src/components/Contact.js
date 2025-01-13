@@ -59,25 +59,25 @@ function Contact() {
             <h3 className="contact-social-card mb24 ttu fs15">Find Width me</h3>
             <div className="cont-socil-link df fww ptb8">
               <Link
-                to="https://www.linkedin.com/in/shivnilay1516/"
+                to="https://www.linkedin.com/in/shivnilay1516/" target="_blank"
                 className="social-icon fc2 p16 transit2 br8 bg-bs-01 mlr12"
               >
                 <FaLinkedinIn className="social-icons fs24" />
               </Link>
               <Link
-                to="https://github.com/Shiv1516"
+                to="https://github.com/Shiv1516" target="_blank"
                 className="social-icon fc2 p16 transit2 br8 bg-bs-01 mlr12"
               >
                 <FaGithub className="social-icons fs24" />
               </Link>
               <Link
-                to="https://www.instagram.com/_shivnilay_srivastav_/"
+                to="https://www.instagram.com/_shivnilay_srivastav_/" target="_blank"
                 className="social-icon fc2 p16 transit2 br8 bg-bs-01 mlr12"
               >
                 <FaInstagram className="social-icons fs24" />
               </Link>
               <Link
-                to="https://x.com/shivnilay"
+                to="https://x.com/shivnilay" target="_blank"
                 className="social-icon fc2 p16 transit2 br8 bg-bs-01 mlr12"
               >
                 <FaXTwitter className="social-icons fs24" />

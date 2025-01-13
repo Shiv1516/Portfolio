@@ -55,7 +55,7 @@ function About() {
             <span className="fc3 mr12">
               Shivnilay Srivastav <br /> a
             </span>
-            <span>{text[currentTextIndex] }</span>
+            <span>{text[currentTextIndex]}</span>
           </h2>
           <p className="section-sub-heading lh30 fs18 mb32">
             I use animation as a third dimension by which to simplify
@@ -68,24 +68,28 @@ function About() {
           <div className="about-social-media df fww">
             <Link
               to="https://www.linkedin.com/in/shivnilay1516/"
+              target="_blank"
               className="social-icon fc2 p16 transit2 br8 bg-bs-01 mr12"
             >
               <FaLinkedinIn className="social-icons fs24" />
             </Link>
             <Link
               to="https://github.com/Shiv1516"
+              target="_blank"
               className="social-icon fc2 p16 transit2 br8 bg-bs-01 mlr12"
             >
               <FaGithub className="social-icons fs24" />
             </Link>
             <Link
               to="https://www.instagram.com/_shivnilay_srivastav_/"
+              target="_blank"
               className="social-icon fc2 p16 transit2 br8 bg-bs-01 mlr12"
             >
               <FaInstagram className="social-icons fs24" />
             </Link>
             <Link
               to="https://x.com/shivnilay"
+              target="_blank"
               className="social-icon fc2 p16 transit2 br8 bg-bs-01 mlr12"
             >
               <FaXTwitter className="social-icons fs24" />
