@@ -100,7 +100,7 @@ function About() {
       <div className="about-banner-img flx1 df jce">
         <div className="about-left ml24 bef pr df w85 br12">
           <img
-            src="/images/banner-img.png"
+            src="/images/banner-img-01.png"
             alt="img"
             className="abou-img w100 zi2"
           />
