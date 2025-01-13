@@ -163,10 +163,10 @@ const Testimonial = () => {
               <h4 className="person-card-dep fc3 fw5 ls1 fs12 ttu mb16">
                 {testimonials[currentIndex].company}
               </h4>
-              <h2 className="person-card-heading fs24 lh30 aic fw7 mb16 fw5">
+              <h2 className="person-card-heading fs24 lh30 aic fw7 mb8 fw5">
                 {testimonials[currentIndex].name}
               </h2>
-              <h3 className="person-card-dep fs14 mb16">
+              <h3 className="person-card-dep fs12 ml8 mb16">
                 {testimonials[currentIndex].position}
               </h3>
             </div>
