@@ -7,8 +7,16 @@ import { FaXTwitter } from "react-icons/fa6";
 import { FaArrowRight } from "react-icons/fa6";
 
 function Contact() {
+  
   const handlemail = () => {
     window.open("mailto:shivnilaysrivastav@gmail.com", "_blank");
+  };
+
+  const handleForm = (e) => {
+    e.preventDefault();
+    const formData = new FormData(e.target);
+    const obj = Object.fromEntries(formData.entries());
+    console.log(obj);
   };
 
   return (
@@ -59,25 +67,29 @@ function Contact() {
             <h3 className="contact-social-card mb24 ttu fs15">Find Width me</h3>
             <div className="cont-socil-link df fww ptb8">
               <Link
-                to="https://www.linkedin.com/in/shivnilay1516/" target="_blank"
+                to="https://www.linkedin.com/in/shivnilay1516/"
+                target="_blank"
                 className="social-icon fc2 p16 transit2 br8 bg-bs-01 mlr12"
               >
                 <FaLinkedinIn className="social-icons fs24" />
               </Link>
               <Link
-                to="https://github.com/Shiv1516" target="_blank"
+                to="https://github.com/Shiv1516"
+                target="_blank"
                 className="social-icon fc2 p16 transit2 br8 bg-bs-01 mlr12"
               >
                 <FaGithub className="social-icons fs24" />
               </Link>
               <Link
-                to="https://www.instagram.com/_shivnilay_srivastav_/" target="_blank"
+                to="https://www.instagram.com/_shivnilay_srivastav_/"
+                target="_blank"
                 className="social-icon fc2 p16 transit2 br8 bg-bs-01 mlr12"
               >
                 <FaInstagram className="social-icons fs24" />
               </Link>
               <Link
-                to="https://x.com/shivnilay" target="_blank"
+                to="https://x.com/shivnilay"
+                target="_blank"
                 className="social-icon fc2 p16 transit2 br8 bg-bs-01 mlr12"
               >
                 <FaXTwitter className="social-icons fs24" />
@@ -86,7 +98,10 @@ function Contact() {
           </div>
         </div>
         <div className="contact-form flx1">
-          <form className="contact-form-card mlr16 br12 p32 bg-bs-01">
+          <form
+            className="contact-form-card mlr16 br12 p32 bg-bs-01"
+            onSubmit={handleForm}
+          >
             <div className="name-form-box df aic fww jcsb mb24">
               <div className="nam-input flx48 df fdc">
                 <label
