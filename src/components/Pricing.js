@@ -208,7 +208,7 @@ const Pricing = () => {
               <div className="static-detail-box df jcsb aic fww mb32">
                 <div className="static-detail ">
                   <h3 className="static-pricing-heading fs28 fw7 mb16">
-                    Customize Your Single Page
+                    Customize Your Page
                   </h3>
                   <p className="static-pricing-subheading fs18">Elementor</p>
                 </div>

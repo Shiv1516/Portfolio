@@ -14,7 +14,7 @@ const blogData = [
   {
     id: 1,
     title: "T-shirt design is the part of design",
-    image: "/images/blog-01.jpg",
+    image: "/images/blog-02.jpg",
     timing: "2 min read",
     location: "America",
   },
@@ -28,7 +28,7 @@ const blogData = [
   {
     id: 1,
     title: "T-shirt design is the part of design",
-    image: "/images/blog-01.jpg",
+    image: "/images/blog-02.jpg",
     timing: "2 min read",
     location: "America",
   },
@@ -42,7 +42,7 @@ const blogData = [
   {
     id: 1,
     title: "T-shirt design is the part of design",
-    image: "/images/blog-01.jpg",
+    image: "/images/blog-02.jpg",
     timing: "2 min read",
     location: "America",
   },

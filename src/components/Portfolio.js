@@ -16,7 +16,21 @@ const portfolioData = [
     title: "The services provide for design",
     likes: "600",
     department: "Development",
-    image: "/images/portfolio-01.jpg",
+    image: "/images/portfolio-02.jpg",
+  },
+  {
+    id: 1,
+    title: "The services provide for design",
+    likes: "600",
+    department: "Development",
+    image: "/images/portfolio-03.jpg",
+  },
+  {
+    id: 1,
+    title: "The services provide for design",
+    likes: "600",
+    department: "Development",
+    image: "/images/portfolio-02.jpg",
   },
   {
     id: 1,
@@ -30,21 +44,7 @@ const portfolioData = [
     title: "The services provide for design",
     likes: "600",
     department: "Development",
-    image: "/images/portfolio-01.jpg",
-  },
-  {
-    id: 1,
-    title: "The services provide for design",
-    likes: "600",
-    department: "Development",
-    image: "/images/portfolio-01.jpg",
-  },
-  {
-    id: 1,
-    title: "The services provide for design",
-    likes: "600",
-    department: "Development",
-    image: "/images/portfolio-01.jpg",
+    image: "/images/portfolio-03.jpg",
   },
 ];
 
