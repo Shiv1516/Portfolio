@@ -1204,3 +1204,169 @@ table {
 .skill-percentage {
   top: 28%;
 }
+
+@media screen and (max-width: 1024px) {
+  .menu-btn {
+    display: flex;
+  }
+  .hamburger-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+  }
+
+  .hamburger-line {
+    width: 100%;
+    height: 3px;
+    background-color: #333;
+    transition: all 0.3s ease;
+  }
+
+  .open-nav .hamburger-line:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+  }
+
+  .open-nav .hamburger-line:nth-child(2) {
+    opacity: 0;
+  }
+
+  .open-nav .hamburger-line:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+  }
+  .navbar {
+    display: none;
+    position: absolute;
+    top: 94px;
+    left: 0;
+    min-height: calc(100vh - 7px);
+    max-height: calc(100vh - 79px);
+    flex-direction: column;
+    background-color: #fff;
+    overflow: hidden;
+    overflow-y: auto;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: start;
+    width: 100vw;
+    z-index: 100;
+  }
+  .navbar.open-nav {
+    display: flex;
+  }
+  .nav-items .nav-item {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .nav-items .nav-item {
+    border-bottom: 1px solid #e1e1e1;
+  }
+  .nav-items .nav-item .nav-link {
+    padding: 24px 24px;
+  }
+  .nav-sub-items {
+    display: block;
+    position: relative;
+  }
+  .nav-items .nav-item {
+    border-bottom: none;
+  }
+  .nav-link {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 541px) {
+  .section-heading {
+    line-height: 40px;
+    font-size: 32px;
+  }
+  .fs24 {
+    font-size: 20px;
+  }
+  .fs18 {
+    font-size: 14px;
+  }
+  .features-cards,
+  .portfolio-cards,
+  .client-lists,
+  .pricing-card-container,
+  .pricing-card-details,
+  .blog-cards,
+  .contact-content,
+  .education-cards-box,
+  .benifits-list-item,
+  .about-content {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .contact-content,
+  .education-cards-box,
+  .test-des-card,
+  .about-content,
+  .static-detail {
+    margin-bottom: 32px;
+  }
+  .resume-lists,
+  .pricing-lists {
+    overflow-x: auto;
+    align-items: center;
+    width: 100%;
+  }
+  .resume-item,
+  .pricing-item {
+    flex: 0 0 35%;
+    max-width: 35%;
+    padding: 24px 0;
+  }
+  .benifits-list {
+    flex: auto;
+  }
+  .testimonial-person-detail {
+    display: none;
+  }
+  .testimonial-des:after,
+  .testimonial-des-card:before,
+  .education-card:before,
+  .education-card:after {
+    display: none;
+  }
+  .testimonial-des-card,
+  .education-inner-card {
+    margin: 0px;
+  }
+  .arrows {
+    top: 105%;
+  }
+
+  .resume-section,
+  .portfolio-section,
+  .pricing-section,
+  .Blog-section,
+  .contact-section,
+  .features-section,
+  .about-section {
+    padding-bottom: 0px;
+  }
+  .section-subheading,
+  .education-cards {
+    padding: 0px;
+  }
+  .about-left,
+  .testimonial-card-box {
+    width: 100%;
+  }
+  .client-lists {
+    margin-right: 0px;
+  }
+  .footer-section {
+    padding: 12px;
+  }
+  .education-cards {
+    border: none;
+  }
+  .pricing-cards {
+    position: static;
+  }
+}

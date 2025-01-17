@@ -9,7 +9,7 @@ const Resume = () => {
       </h4>
       <h2 className="section-heading fw7 fs60 mb32 fc2">My Resume</h2>
       <div className="resume-card-detail pt40">
-        <ul className="resume-lists df fww fs18 fw5 bg-bs-01 br12 mb24">
+        <ul className="resume-lists df fs18 fw5 bg-bs-01 br12 mb24">
           <li
             className={`resume-item cp flx25 fc-nav ${
               activeresume === "education" ? "active" : ""

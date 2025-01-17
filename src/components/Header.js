@@ -1,7 +1,19 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { MdMailOutline } from "react-icons/md";
+import Hamburger from "./Hamburger";
 function Header() {
+  const [isMenuOpen, setMenuOpen] = useState(false);
+  const [isNavbarOpen, setNavbarOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!isMenuOpen);
+    setNavbarOpen(!isNavbarOpen);
+
+    const navbar = document.querySelector(".navbar");
+    navbar.classList.toggle("open-nav", !isNavbarOpen);
+  };
+
   const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
@@ -48,6 +60,7 @@ function Header() {
           />
           <h2 className="logo-test ttu fs20 fw6 pl16">INBIO</h2>
         </Link>
+        <Hamburger isOpen={isMenuOpen} toggleMenu={toggleMenu} />
         <nav className="navbar v-center">
           <ul id="nav-items" className="nav-items fc1 v-center fs14 fw5 fww">
             <li className="nav-item">

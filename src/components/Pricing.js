@@ -23,7 +23,7 @@ const Pricing = () => {
       </div>
       <div className="pricing-card-details flx60">
         <div className="pricing-card-detail bg-bs-01 pb16 br12 ofh">
-          <ul className="pricing-lists df fww fs18 fw5 bg-bs-01 mb24">
+          <ul className="pricing-lists df fs18 fw5 bg-bs-01 mb24">
             <li
               className={`pricing-item cp flx33 fc-nav ${
                 activepricing === "static" ? "active" : ""
