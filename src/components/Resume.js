@@ -4,7 +4,7 @@ const Resume = () => {
   const [activeresume, setactiveresume] = useState("education");
   return (
     <div className="resume-section wrapper ptb80 tac brd-b1" id="resume-id">
-      <h4 className="section-subheading fs14 mb20 fc3 fw5 ls2 ttu">
+      <h4 className="section-subheading lh20 fs14 mb20 fc3 fw5 ls2 ttu">
         1.5+ Years of Experience
       </h4>
       <h2 className="section-heading fw7 fs60 mb32 fc2">My Resume</h2>
@@ -57,10 +57,10 @@ const Resume = () => {
                   <div className="education-card bef aft pr zi1 fc1 plr40 ptb48 mt48 bg-bs-01 br12">
                     <div className="education-top-box df jcsb aic pb48 brd-b2">
                       <div className="education-detail">
-                        <h2 className="education-heading mb16 fs24 fw5">
+                        <h2 className="education-heading lh24 mb16 fs24 fw5">
                           Personal Portfolio April Fools
                         </h2>
-                        <p className="eductaion-subheading fs14">
+                        <p className="eductaion-subheading lh18 fs14">
                           University of DVI (1997 - 2001)
                         </p>
                       </div>
@@ -77,10 +77,10 @@ const Resume = () => {
                   <div className="education-card bef aft pr zi1 fc1 plr40 ptb48 mt48 bg-bs-01 br12">
                     <div className="education-top-box df jcsb aic pb48 brd-b2">
                       <div className="education-detail">
-                        <h2 className="education-heading mb16 fs24 fw5">
+                        <h2 className="education-heading lh24 mb16 fs24 fw5">
                           Personal Portfolio April Fools
                         </h2>
-                        <p className="eductaion-subheading fs14">
+                        <p className="eductaion-subheading lh18 fs14">
                           University of DVI (1997 - 2001)
                         </p>
                       </div>
@@ -97,10 +97,10 @@ const Resume = () => {
                   <div className="education-card bef aft pr zi1 fc1 plr40 ptb48 mt48 bg-bs-01 br12">
                     <div className="education-top-box df jcsb aic pb48 brd-b2">
                       <div className="education-detail">
-                        <h2 className="education-heading mb16 fs24 fw5">
+                        <h2 className="education-heading lh24 mb16 fs24 fw5">
                           Personal Portfolio April Fools
                         </h2>
-                        <p className="eductaion-subheading fs14">
+                        <p className="eductaion-subheading lh18 fs14">
                           University of DVI (1997 - 2001)
                         </p>
                       </div>
@@ -129,10 +129,10 @@ const Resume = () => {
                   <div className="education-card bef aft pr zi1 fc1 plr40 ptb48 mt48 bg-bs-01 br12">
                     <div className="education-top-box df jcsb aic pb48 brd-b2">
                       <div className="education-detail">
-                        <h2 className="education-heading mb16 fs24 fw5">
+                        <h2 className="education-heading lh24 mb16 fs24 fw5">
                           Personal Portfolio April Fools
                         </h2>
-                        <p className="eductaion-subheading fs14">
+                        <p className="eductaion-subheading lh18 fs14">
                           University of DVI (1997 - 2001)
                         </p>
                       </div>
@@ -149,10 +149,10 @@ const Resume = () => {
                   <div className="education-card bef aft pr zi1 fc1 plr40 ptb48 mt48 bg-bs-01 br12">
                     <div className="education-top-box df jcsb aic pb48 brd-b2">
                       <div className="education-detail">
-                        <h2 className="education-heading mb16 fs24 fw5">
+                        <h2 className="education-heading lh24 mb16 fs24 fw5">
                           Personal Portfolio April Fools
                         </h2>
-                        <p className="eductaion-subheading fs14">
+                        <p className="eductaion-subheading lh18 fs14">
                           University of DVI (1997 - 2001)
                         </p>
                       </div>
@@ -169,10 +169,10 @@ const Resume = () => {
                   <div className="education-card bef aft pr zi1 fc1 plr40 ptb48 mt48 bg-bs-01 br12">
                     <div className="education-top-box df jcsb aic pb48 brd-b2">
                       <div className="education-detail">
-                        <h2 className="education-heading mb16 fs24 fw5">
+                        <h2 className="education-heading lh24 mb16 fs24 fw5">
                           Personal Portfolio April Fools
                         </h2>
-                        <p className="eductaion-subheading fs14">
+                        <p className="eductaion-subheading lh18 fs14">
                           University of DVI (1997 - 2001)
                         </p>
                       </div>
@@ -313,10 +313,10 @@ const Resume = () => {
                   <div className="education-card bef aft pr zi1 fc1 plr40 ptb48 mt48 bg-bs-01 br12">
                     <div className="education-top-box df jcsb aic pb48 brd-b2">
                       <div className="education-detail">
-                        <h2 className="education-heading mb16 fs24 fw5">
+                        <h2 className="education-heading lh24 mb16 fs24 fw5">
                           Personal Portfolio April Fools
                         </h2>
-                        <p className="eductaion-subheading fs14">
+                        <p className="eductaion-subheading lh18 fs14">
                           University of DVI (1997 - 2001)
                         </p>
                       </div>
@@ -333,10 +333,10 @@ const Resume = () => {
                   <div className="education-card bef aft pr zi1 fc1 plr40 ptb48 mt48 bg-bs-01 br12">
                     <div className="education-top-box df jcsb aic pb48 brd-b2">
                       <div className="education-detail">
-                        <h2 className="education-heading mb16 fs24 fw5">
+                        <h2 className="education-heading lh24 mb16 fs24 fw5">
                           Personal Portfolio April Fools
                         </h2>
-                        <p className="eductaion-subheading fs14">
+                        <p className="eductaion-subheading lh18 fs14">
                           University of DVI (1997 - 2001)
                         </p>
                       </div>
@@ -353,10 +353,10 @@ const Resume = () => {
                   <div className="education-card bef aft pr zi1 fc1 plr40 ptb48 mt48 bg-bs-01 br12">
                     <div className="education-top-box df jcsb aic pb48 brd-b2">
                       <div className="education-detail">
-                        <h2 className="education-heading mb16 fs24 fw5">
+                        <h2 className="education-heading lh24 mb16 fs24 fw5">
                           Personal Portfolio April Fools
                         </h2>
-                        <p className="eductaion-subheading fs14">
+                        <p className="eductaion-subheading lh18 fs14">
                           University of DVI (1997 - 2001)
                         </p>
                       </div>
@@ -385,10 +385,10 @@ const Resume = () => {
                   <div className="education-card bef aft pr zi1 fc1 plr40 ptb48 mt48 bg-bs-01 br12">
                     <div className="education-top-box df jcsb aic pb48 brd-b2">
                       <div className="education-detail">
-                        <h2 className="education-heading mb16 fs24 fw5">
+                        <h2 className="education-heading lh24 mb16 fs24 fw5">
                           Personal Portfolio April Fools
                         </h2>
-                        <p className="eductaion-subheading fs14">
+                        <p className="eductaion-subheading lh18 fs14">
                           University of DVI (1997 - 2001)
                         </p>
                       </div>
@@ -405,10 +405,10 @@ const Resume = () => {
                   <div className="education-card bef aft pr zi1 fc1 plr40 ptb48 mt48 bg-bs-01 br12">
                     <div className="education-top-box df jcsb aic pb48 brd-b2">
                       <div className="education-detail">
-                        <h2 className="education-heading mb16 fs24 fw5">
+                        <h2 className="education-heading lh24 mb16 fs24 fw5">
                           Personal Portfolio April Fools
                         </h2>
-                        <p className="eductaion-subheading fs14">
+                        <p className="eductaion-subheading lh18 fs14">
                           University of DVI (1997 - 2001)
                         </p>
                       </div>
@@ -425,10 +425,10 @@ const Resume = () => {
                   <div className="education-card bef aft pr zi1 fc1 plr40 ptb48 mt48 bg-bs-01 br12">
                     <div className="education-top-box df jcsb aic pb48 brd-b2">
                       <div className="education-detail">
-                        <h2 className="education-heading mb16 fs24 fw5">
+                        <h2 className="education-heading lh24 mb16 fs24 fw5">
                           Personal Portfolio April Fools
                         </h2>
-                        <p className="eductaion-subheading fs14">
+                        <p className="eductaion-subheading lh18 fs14">
                           University of DVI (1997 - 2001)
                         </p>
                       </div>
@@ -461,10 +461,10 @@ const Resume = () => {
                   <div className="education-card bef aft pr zi1 fc1 plr40 ptb48 mt48 bg-bs-01 br12">
                     <div className="education-top-box df jcsb aic pb48 brd-b2">
                       <div className="education-detail">
-                        <h2 className="education-heading mb16 fs24 fw5">
+                        <h2 className="education-heading lh24 mb16 fs24 fw5">
                           Personal Portfolio April Fools
                         </h2>
-                        <p className="eductaion-subheading fs14">
+                        <p className="eductaion-subheading lh18 fs14">
                           University of DVI (1997 - 2001)
                         </p>
                       </div>
@@ -481,10 +481,10 @@ const Resume = () => {
                   <div className="education-card bef aft pr zi1 fc1 plr40 ptb48 mt48 bg-bs-01 br12">
                     <div className="education-top-box df jcsb aic pb48 brd-b2">
                       <div className="education-detail">
-                        <h2 className="education-heading mb16 fs24 fw5">
+                        <h2 className="education-heading lh24 mb16 fs24 fw5">
                           Personal Portfolio April Fools
                         </h2>
-                        <p className="eductaion-subheading fs14">
+                        <p className="eductaion-subheading lh18 fs14">
                           University of DVI (1997 - 2001)
                         </p>
                       </div>
@@ -501,10 +501,10 @@ const Resume = () => {
                   <div className="education-card bef aft pr zi1 fc1 plr40 ptb48 mt48 bg-bs-01 br12">
                     <div className="education-top-box df jcsb aic pb48 brd-b2">
                       <div className="education-detail">
-                        <h2 className="education-heading mb16 fs24 fw5">
+                        <h2 className="education-heading lh24 mb16 fs24 fw5">
                           Personal Portfolio April Fools
                         </h2>
-                        <p className="eductaion-subheading fs14">
+                        <p className="eductaion-subheading lh18 fs14">
                           University of DVI (1997 - 2001)
                         </p>
                       </div>
@@ -533,10 +533,10 @@ const Resume = () => {
                   <div className="education-card bef aft pr zi1 fc1 plr40 ptb48 mt48 bg-bs-01 br12">
                     <div className="education-top-box df jcsb aic pb48 brd-b2">
                       <div className="education-detail">
-                        <h2 className="education-heading mb16 fs24 fw5">
+                        <h2 className="education-heading lh24 mb16 fs24 fw5">
                           Personal Portfolio April Fools
                         </h2>
-                        <p className="eductaion-subheading fs14">
+                        <p className="eductaion-subheading lh18 fs14">
                           University of DVI (1997 - 2001)
                         </p>
                       </div>
@@ -553,10 +553,10 @@ const Resume = () => {
                   <div className="education-card bef aft pr zi1 fc1 plr40 ptb48 mt48 bg-bs-01 br12">
                     <div className="education-top-box df jcsb aic pb48 brd-b2">
                       <div className="education-detail">
-                        <h2 className="education-heading mb16 fs24 fw5">
+                        <h2 className="education-heading lh24 mb16 fs24 fw5">
                           Personal Portfolio April Fools
                         </h2>
-                        <p className="eductaion-subheading fs14">
+                        <p className="eductaion-subheading lh18 fs14">
                           University of DVI (1997 - 2001)
                         </p>
                       </div>
@@ -573,10 +573,10 @@ const Resume = () => {
                   <div className="education-card bef aft pr zi1 fc1 plr40 ptb48 mt48 bg-bs-01 br12">
                     <div className="education-top-box df jcsb aic pb48 brd-b2">
                       <div className="education-detail">
-                        <h2 className="education-heading mb16 fs24 fw5">
+                        <h2 className="education-heading lh24 mb16 fs24 fw5">
                           Personal Portfolio April Fools
                         </h2>
-                        <p className="eductaion-subheading fs14">
+                        <p className="eductaion-subheading lh18 fs14">
                           University of DVI (1997 - 2001)
                         </p>
                       </div>

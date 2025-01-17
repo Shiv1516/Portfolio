@@ -51,7 +51,7 @@ const blogData = [
 function Blog() {
   return (
     <div className="Blog-section tac ptb80 wrapper brd-b1" id="blog-id">
-      <h4 className="section-subheading fs14 mb20 fc3 fw5 ls2 ttu">
+      <h4 className="section-subheading lh20 fs14 mb20 fc3 fw5 ls2 ttu">
         Visit my blog and keep your feedback
       </h4>
       <h2 className="section-heading fw7 fs60 mb32 fc2">My Blog</h2>

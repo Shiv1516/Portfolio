@@ -54,7 +54,7 @@ function Portfolio() {
       className="portfolio-section tac ptb80 wrapper brd-b1"
       id="portfolio-id"
     >
-      <h4 className="section-subheading fs14 mb20 fc3 fw5 ls2 ttu">
+      <h4 className="section-subheading lh20 fs14 mb20 fc3 fw5 ls2 ttu">
         Visit my portfolio and keep your feedback
       </h4>
       <h2 className="section-heading fw7 fs60 mb32 fc2">My Portfolio</h2>

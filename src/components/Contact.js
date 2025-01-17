@@ -7,7 +7,6 @@ import { FaXTwitter } from "react-icons/fa6";
 import { FaArrowRight } from "react-icons/fa6";
 
 function Contact() {
-  
   const handlemail = () => {
     window.open("mailto:shivnilaysrivastav@gmail.com", "_blank");
   };
@@ -21,7 +20,9 @@ function Contact() {
 
   return (
     <div className="contact-section ptb80 tac wrapper brd-b1" id="contact-id">
-      <h4 className="section-subheading fs14 mb20 fc3 fw5 ls2 ttu">Contact</h4>
+      <h4 className="section-subheading lh20 fs14 mb20 fc3 fw5 ls2 ttu">
+        Contact
+      </h4>
       <h2 className="section-heading fw7 fs60 mb32 fc2">Contact With Me</h2>
       <div className="contact-card-box df fww ptb32 tal aisc">
         <div className="contact-content flx40">

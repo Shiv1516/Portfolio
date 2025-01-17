@@ -47,7 +47,7 @@ function About() {
     >
       <div className="about-content flx50">
         <div className="about-content-box mr24">
-          <h4 className="section-subheading fs14 mb32 fw5 ls2 ttu">
+          <h4 className="section-subheading lh20 fs14 mb32 fw5 ls2 ttu">
             Welcome to my world
           </h4>
           <h2 className="section-heading fw7 fs52 lh70 mb32 fc2">
@@ -62,7 +62,7 @@ function About() {
             experiences and kuiding thro each and every interaction. I’m not
             adding motion just to spruce things up, but doing it in ways that.
           </p>
-          <h4 className="section-subheading fs14 mb32 pt80 fw5 ls2 ttu">
+          <h4 className="section-subheading lh20 fs14 mb32 pt80 fw5 ls2 ttu">
             find with me
           </h4>
           <div className="about-social-media df fww">

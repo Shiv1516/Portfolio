@@ -7,7 +7,7 @@
 // function Testimonial() {
 //   return (
 //     <div className="testimonial-section wrapper ptb80 tac brd-b1">
-//       <h4 className="section-subheading fs14 mb20 fc3 fw5 ls2 ttu">
+//       <h4 className="section-subheading lh20 fs14 mb20 fc3 fw5 ls2 ttu">
 //         What Clients Say
 //       </h4>
 //       <h2 className="section-heading fw7 fs60 mb32 fc2">Testimonial</h2>
@@ -145,7 +145,7 @@ const Testimonial = () => {
 
   return (
     <div className="testimonial-section wrapper ptb80 tac brd-b1">
-      <h4 className="section-subheading fs14 mb20 fc3 fw5 ls2 ttu">
+      <h4 className="section-subheading lh20 fs14 mb20 fc3 fw5 ls2 ttu">
         What Clients Say
       </h4>
       <h2 className="section-heading fw7 fs60 mb32 fc2">Testimonial</h2>
