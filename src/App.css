@@ -1281,12 +1281,18 @@ table {
     line-height: 40px;
     font-size: 32px;
   }
+  .fs36 {
+    font-size: 24px;
+  }
   .fs24,
   .fs28 {
     font-size: 20px;
   }
   .fs18 {
     font-size: 14px;
+  }
+  .fs14 {
+    font-size: 10px;
   }
   .features-cards,
   .portfolio-cards,
@@ -1338,7 +1344,8 @@ table {
   .contact-card,
   .blog-card,
   .portfolio-card,
-  .features-card {
+  .features-card,
+  .about-content-box {
     margin: 0px;
   }
   .arrows {
@@ -1381,5 +1388,19 @@ table {
   .social-icon {
     padding: 12px;
     margin: 0 8px;
+  }
+  .features-card {
+    height: auto;
+  }
+  .education-card,
+  .testimonial-des-card,
+  .contact-card,
+  .blog-card,
+  .static-pricing-detail,
+  .portfolio-card,
+  .features-card,
+  .standard-pricing-detail,
+  .premium-pricing-detail {
+    padding: 24px;
   }
 }
