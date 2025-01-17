@@ -1291,9 +1291,6 @@ table {
   .fs18 {
     font-size: 14px;
   }
-  .fs14 {
-    font-size: 10px;
-  }
   .features-cards,
   .portfolio-cards,
   .client-lists,
@@ -1364,6 +1361,9 @@ table {
   .section-subheading,
   .education-cards {
     padding: 0px;
+  }
+  .section-subheading {
+    font-size: 10px;
   }
   .about-left,
   .testimonial-card-box {
