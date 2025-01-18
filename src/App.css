@@ -1205,6 +1205,30 @@ table {
   top: 28%;
 }
 
+@media screen and (max-width: 1110px) {
+  .testimonial-card-box {
+    width: 100%;
+  }
+  .testimonial-des:after,
+  .education-card:after {
+    display: none;
+  }
+  .fs52 {
+    font-size: 40px;
+  }
+  .lh70 {
+    line-height: 60px;
+  }
+  .fs24 {
+    font-size: 20px;
+  }
+  .fs18 {
+    font-size: 16px;
+  }
+  .section-subheading {
+    padding-top: 50px;
+  }
+}
 @media screen and (max-width: 1024px) {
   .menu-btn {
     display: flex;
@@ -1275,6 +1299,88 @@ table {
   .nav-link {
     width: 100%;
   }
+  .flx33 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .test-des-card,
+  .contact-content {
+    margin-bottom: 16px;
+  }
+  .pricing-lists {
+    overflow-x: auto;
+    align-items: center;
+    width: 100%;
+  }
+  .contact-content {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .fs28 {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .testimonial-person-detail,
+  .testimonial-des-card:before,
+  .education-card:before {
+    display: none;
+  }
+  .pricing-card-container,
+  .pricing-card-details {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .pricing-cards {
+    position: static;
+  }
+  .section-heading {
+    font-size: 34px;
+    line-height: 40px;
+  }
+  .education-cards {
+    border: none;
+  }
+  .education-cards {
+    padding: 0px;
+  }
+}
+@media screen and (max-width: 720px) {
+  .about-content,
+  .features-cards,
+  .portfolio-cards,
+  .education-cards-box,
+  .blog-cards {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .education-cards-box {
+    margin-bottom: 24px;
+  }
+  .features-card {
+    height: auto;
+  }
+  .resume-section,
+  .portfolio-section,
+  .pricing-section,
+  .Blog-section,
+  .contact-section,
+  .features-section,
+  .about-section {
+    padding-bottom: 0px;
+  }
+  .about-left {
+    width: 100%;
+  }
+  .resume-lists {
+    overflow-x: auto;
+    align-items: center;
+    width: 100%;
+  }
+  .resume-item {
+    flex: 0 0 33%;
+    max-width: 33%;
+  }
 }
 @media screen and (max-width: 541px) {
   .section-heading {
@@ -1291,47 +1397,37 @@ table {
   .fs18 {
     font-size: 14px;
   }
-  .features-cards,
-  .portfolio-cards,
   .client-lists,
   .pricing-card-container,
   .pricing-card-details,
   .blog-cards,
   .contact-content,
-  .education-cards-box,
   .benifits-list-item,
-  .about-content,
   .nam-input {
     flex: 0 0 100%;
     max-width: 100%;
   }
   .contact-content,
   .education-cards-box,
-  .test-des-card,
   .about-content,
   .static-detail,
   .nam-input {
     margin-bottom: 32px;
   }
-  .resume-lists,
   .pricing-lists {
     overflow-x: auto;
     align-items: center;
     width: 100%;
   }
-  .resume-item,
-  .pricing-item {
+  .pricing-item,
+  .resume-item {
     flex: 0 0 40%;
     max-width: 40%;
     padding: 24px 0;
   }
 
-  .testimonial-des:after,
-  .testimonial-des-card:before,
   .education-card:before,
-  .education-card:after,
-  .pricing-timer,
-  .testimonial-person-detail {
+  .pricing-timer {
     display: none;
   }
   .testimonial-des-card,
@@ -1348,24 +1444,13 @@ table {
   .arrows {
     top: 105%;
   }
-
-  .resume-section,
-  .portfolio-section,
-  .pricing-section,
-  .Blog-section,
-  .contact-section,
-  .features-section,
-  .about-section {
-    padding-bottom: 0px;
-  }
-  .section-subheading,
-  .education-cards {
+  .section-subheading {
     padding: 0px;
   }
   .section-subheading {
     font-size: 10px;
   }
-  .about-left,
+
   .testimonial-card-box {
     width: 100%;
   }
@@ -1378,9 +1463,7 @@ table {
   .education-cards {
     border: none;
   }
-  .pricing-cards {
-    position: static;
-  }
+
   .client-detail-list {
     flex: 0 0 50%;
     max-width: 50%;
@@ -1389,9 +1472,7 @@ table {
     padding: 12px;
     margin: 0 8px;
   }
-  .features-card {
-    height: auto;
-  }
+
   .education-card,
   .testimonial-des-card,
   .contact-card,

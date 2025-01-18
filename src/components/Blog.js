@@ -59,7 +59,7 @@ function Blog() {
       <div className="blog-cards-box df fww ptb32">
         {blogData.map((item) => (
           <div className="blog-cards flx33 mb24" key={item.id}>
-            <div className="blog-card br12 p32 bg-bs-01 m16">
+            <div className="blog-card br12 p32 bg-bs-01 m16 tal">
               <div className="blog-card-img mb24 ofh df br12">
                 <img
                   src={item.image}
