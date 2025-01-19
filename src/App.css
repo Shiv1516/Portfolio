@@ -1394,7 +1394,7 @@ table {
     font-size: 20px;
   }
   .fs18 {
-    font-size: 14px;
+    font-size: 15px;
   }
   .client-lists,
   .pricing-card-container,
@@ -1447,7 +1447,8 @@ table {
     padding: 0px;
   }
   .section-subheading {
-    font-size: 10px;
+    font-size: 13px;
+    line-height: 18px;
   }
   .testimonial-card-box {
     width: 100%;
@@ -1481,7 +1482,7 @@ table {
   .contact-form-card {
     padding: 24px;
   }
-  .bout-left {
+  .about-left {
     margin-left: 1px;
   }
   .nav-items .nav-item .nav-link {
