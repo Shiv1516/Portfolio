@@ -1204,7 +1204,6 @@ table {
 .skill-percentage {
   top: 28%;
 }
-
 @media screen and (max-width: 1110px) {
   .testimonial-card-box {
     width: 100%;
@@ -1425,9 +1424,9 @@ table {
     max-width: 40%;
     padding: 24px 0;
   }
-
   .education-card:before,
-  .pricing-timer {
+  .pricing-timer,
+  .education-persent {
     display: none;
   }
   .testimonial-des-card,
@@ -1450,7 +1449,6 @@ table {
   .section-subheading {
     font-size: 10px;
   }
-
   .testimonial-card-box {
     width: 100%;
   }
@@ -1463,7 +1461,6 @@ table {
   .education-cards {
     border: none;
   }
-
   .client-detail-list {
     flex: 0 0 50%;
     max-width: 50%;
@@ -1472,7 +1469,6 @@ table {
     padding: 12px;
     margin: 0 8px;
   }
-
   .education-card,
   .testimonial-des-card,
   .contact-card,
@@ -1481,7 +1477,14 @@ table {
   .portfolio-card,
   .features-card,
   .standard-pricing-detail,
-  .premium-pricing-detail {
+  .premium-pricing-detail,
+  .contact-form-card {
     padding: 24px;
+  }
+  .bout-left {
+    margin-left: 1px;
+  }
+  .nav-items .nav-item .nav-link {
+    padding: 16px 16px;
   }
 }

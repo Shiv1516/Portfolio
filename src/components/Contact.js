@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
@@ -6,16 +6,33 @@ import { FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaArrowRight } from "react-icons/fa6";
 
-function Contact() {
+const Contact = () => {
   const handlemail = () => {
     window.open("mailto:shivnilaysrivastav@gmail.com", "_blank");
   };
 
-  const handleForm = (e) => {
+  const [name, setName] = useState("");
+  const [number, setNumber] = useState("");
+  const [email, setEmail] = useState("");
+  const [subject, setSubject] = useState("");
+  const [text, setText] = useState("");
+
+  const handleSubmit = (e) => {
     e.preventDefault();
-    const formData = new FormData(e.target);
-    const obj = Object.fromEntries(formData.entries());
-    console.log(obj);
+    const formData = {
+      name,
+      number,
+      email,
+      subject,
+      message: text,
+    };
+    console.log("Form Submitted:", formData);
+
+    setName("");
+    setNumber("");
+    setEmail("");
+    setSubject("");
+    setText("");
   };
 
   return (
@@ -101,25 +118,28 @@ function Contact() {
         <div className="contact-form flx1">
           <form
             className="contact-form-card mlr16 br12 p32 bg-bs-01"
-            onSubmit={handleForm}
+            onSubmit={handleSubmit}
           >
             <div className="name-form-box df aic fww jcsb mb24">
               <div className="nam-input flx48 df fdc">
                 <label
-                  htmlFor="name"
+                  htmlFor="name-field"
                   className="form-name ttu fw4 ls1 fs12 mb16"
                 >
                   Your Name
                 </label>
                 <input
                   type="text"
+                  id="name-field"
                   placeholder=""
+                  value={name}
+                  onChange={(e) => setName(e.target.value)}
                   className="form-name-text h48 plr12 bg4 brd2 br4 mb8"
                 />
               </div>
               <div className="nam-input flx48 df fdc">
                 <label
-                  htmlFor="name"
+                  htmlFor="number-field"
                   className="form-number ttu fw4 ls1 fs12 mb16"
                 >
                   Phone Number
@@ -127,13 +147,17 @@ function Contact() {
                 <input
                   type="number"
                   placeholder=""
+                  id="number-field"
+                  required
+                  value={number}
+                  onChange={(e) => setNumber(e.target.value)}
                   className="form-number-text h48 plr12 bg4 brd2 br4 mb8"
                 />
               </div>
             </div>
             <div className="email-input df fdc mb24">
               <label
-                htmlFor="email"
+                htmlFor="email-field"
                 className="form-email ttu fw4 ls1 fs12 mb16"
               >
                 Email
@@ -141,12 +165,16 @@ function Contact() {
               <input
                 type="email"
                 placeholder=""
+                id="email-field"
+                required
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
                 className="form-email-text h48 plr12 bg4 brd2 br4 mb8"
               />
             </div>
             <div className="subject-input df fdc mb24">
               <label
-                htmlFor="subject"
+                htmlFor="subject-field"
                 className="form-subject ttu fw4 ls1 fs12 mb16"
               >
                 Subject
@@ -154,33 +182,39 @@ function Contact() {
               <input
                 type="text"
                 placeholder=""
+                id="subject-field"
+                required
+                value={subject}
+                onChange={(e) => setSubject(e.target.value)}
                 className="form-subject-text h48 plr12 bg4 brd2 br4 mb8"
               />
             </div>
             <div className="text-input df fdc mb32">
               <label
-                htmlFor="message"
+                htmlFor="message-field"
                 className="form-text ttu fw4 ls1 fs12 mb16"
               >
                 Your Message
               </label>
               <textarea
                 name="text"
-                id=""
+                id="message-field"
+                value={text}
+                onChange={(e) => setText(e.target.value)}
                 className="form-subject-text pt12 plr12 bg4 brd2 br4 mb8 rn"
                 rows="11"
               ></textarea>
             </div>
-            <Link
-              to="/"
-              className="submit-btn fc3 fw5 fc-h2 fs15 transit2 df bg-bs-01 h48 aic jcc br4"
+            <button
+              type="submit"
+              className="submit-btn fc3 fw5 fc-h2 fs15 transit2 df bg-bs-01 h48 aic jcc br4 df w100"
             >
               Send Message <FaArrowRight className="ml8" />
-            </Link>
+            </button>
           </form>
         </div>
       </div>
     </div>
   );
-}
+};
 export default Contact;
