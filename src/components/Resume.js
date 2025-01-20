@@ -325,9 +325,12 @@ const Resume = () => {
                       </p>
                     </div>
                     <p className="education-box-details lh30 fw4 fs18 pt32">
-                      The education should be very interactual. Ut tincidunt est
-                      ac dolor aliquam sodales. Phasellus sed mauris hendrerit,
-                      laoreet sem in, lobortis mauris hendrerit ante.
+                      Education should be engaging and interactive. It should
+                      inspire curiosity and foster meaningful learning
+                      experiences. Effective education blends theory with
+                      practical application, encouraging collaboration and
+                      critical thinking. By doing so, it nurtures innovation and
+                      prepares learners for real-world challenges.
                     </p>
                   </div>
                   <div className="education-card bef aft pr zi1 fc1 plr40 ptb48 mt48 bg-bs-01 br12">
@@ -345,9 +348,12 @@ const Resume = () => {
                       </p>
                     </div>
                     <p className="education-box-details lh30 fw4 fs18 pt32">
-                      The education should be very interactual. Ut tincidunt est
-                      ac dolor aliquam sodales. Phasellus sed mauris hendrerit,
-                      laoreet sem in, lobortis mauris hendrerit ante.
+                      Education should be engaging and interactive. It should
+                      inspire curiosity and foster meaningful learning
+                      experiences. Effective education blends theory with
+                      practical application, encouraging collaboration and
+                      critical thinking. By doing so, it nurtures innovation and
+                      prepares learners for real-world challenges.
                     </p>
                   </div>
                   <div className="education-card bef aft pr zi1 fc1 plr40 ptb48 mt48 bg-bs-01 br12">
@@ -365,9 +371,12 @@ const Resume = () => {
                       </p>
                     </div>
                     <p className="education-box-details lh30 fw4 fs18 pt32">
-                      The education should be very interactual. Ut tincidunt est
-                      ac dolor aliquam sodales. Phasellus sed mauris hendrerit,
-                      laoreet sem in, lobortis mauris hendrerit ante.
+                      Education should be engaging and interactive. It should
+                      inspire curiosity and foster meaningful learning
+                      experiences. Effective education blends theory with
+                      practical application, encouraging collaboration and
+                      critical thinking. By doing so, it nurtures innovation and
+                      prepares learners for real-world challenges.
                     </p>
                   </div>
                 </div>
@@ -397,9 +406,12 @@ const Resume = () => {
                       </p>
                     </div>
                     <p className="education-box-details lh30 fw4 fs18 pt32">
-                      The education should be very interactual. Ut tincidunt est
-                      ac dolor aliquam sodales. Phasellus sed mauris hendrerit,
-                      laoreet sem in, lobortis mauris hendrerit ante.
+                      Education should be engaging and interactive. It should
+                      inspire curiosity and foster meaningful learning
+                      experiences. Effective education blends theory with
+                      practical application, encouraging collaboration and
+                      critical thinking. By doing so, it nurtures innovation and
+                      prepares learners for real-world challenges.
                     </p>
                   </div>
                   <div className="education-card bef aft pr zi1 fc1 plr40 ptb48 mt48 bg-bs-01 br12">
@@ -417,9 +429,12 @@ const Resume = () => {
                       </p>
                     </div>
                     <p className="education-box-details lh30 fw4 fs18 pt32">
-                      The education should be very interactual. Ut tincidunt est
-                      ac dolor aliquam sodales. Phasellus sed mauris hendrerit,
-                      laoreet sem in, lobortis mauris hendrerit ante.
+                      Education should be engaging and interactive. It should
+                      inspire curiosity and foster meaningful learning
+                      experiences. Effective education blends theory with
+                      practical application, encouraging collaboration and
+                      critical thinking. By doing so, it nurtures innovation and
+                      prepares learners for real-world challenges.
                     </p>
                   </div>
                   <div className="education-card bef aft pr zi1 fc1 plr40 ptb48 mt48 bg-bs-01 br12">
@@ -437,9 +452,12 @@ const Resume = () => {
                       </p>
                     </div>
                     <p className="education-box-details lh30 fw4 fs18 pt32">
-                      The education should be very interactual. Ut tincidunt est
-                      ac dolor aliquam sodales. Phasellus sed mauris hendrerit,
-                      laoreet sem in, lobortis mauris hendrerit ante.
+                      Education should be engaging and interactive. It should
+                      inspire curiosity and foster meaningful learning
+                      experiences. Effective education blends theory with
+                      practical application, encouraging collaboration and
+                      critical thinking. By doing so, it nurtures innovation and
+                      prepares learners for real-world challenges.
                     </p>
                   </div>
                 </div>
