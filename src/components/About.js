@@ -104,6 +104,11 @@ function About() {
             alt="img"
             className="abou-img w100 zi2"
           />
+          <img
+            src="/images/banner-img-02.png"
+            alt="img"
+            className="abou-img-01 w100 zi2 dn"
+          />
         </div>
       </div>
     </div>

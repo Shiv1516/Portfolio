@@ -1261,7 +1261,7 @@ table {
   .navbar {
     display: none;
     position: absolute;
-    top: 94px;
+    top: 66px;
     left: 0;
     min-height: calc(100vh - 7px);
     max-height: calc(100vh - 79px);
@@ -1383,17 +1383,19 @@ table {
 }
 @media screen and (max-width: 541px) {
   .section-heading {
-    line-height: 40px;
-    font-size: 32px;
+    line-height: 36px;
+    font-size: 28px;
   }
   .fs36 {
     font-size: 24px;
   }
   .fs24,
+  .fs22,
   .fs28 {
     font-size: 20px;
   }
-  .fs18 {
+  .fs18,
+  .features-card-subheading {
     font-size: 15px;
   }
   .client-lists,
@@ -1426,7 +1428,8 @@ table {
   }
   .education-card:before,
   .pricing-timer,
-  .education-persent {
+  .education-persent,
+  .abou-img {
     display: none;
   }
   .testimonial-des-card,
@@ -1487,5 +1490,20 @@ table {
   }
   .nav-items .nav-item .nav-link {
     padding: 16px 16px;
+  }
+  .logo-icon,
+  .footer-icon {
+    border-radius: 50%;
+    height: 48px;
+    width: 48px;
+  }
+  .header {
+    padding: 8px 0;
+  }
+  .abou-img-01 {
+    display: block;
+  }
+  .education-top-box {
+    padding-bottom: 24px;
   }
 }
