@@ -6,17 +6,17 @@ import { Link } from "react-router-dom";
 const blogData = [
   {
     id: 1,
-    title: "T-shirt design is the part of design",
+    title: "The Future of Web Development Trends",
     image: "/images/blog-01.jpg",
-    timing: "2 min read",
-    location: "America",
+    timing: "2 Years ago",
+    location: "India",
   },
   {
     id: 1,
-    title: "T-shirt design is the part of design",
+    title: "Mastering the Art of Freelance Projects",
     image: "/images/blog-02.jpg",
-    timing: "2 min read",
-    location: "America",
+    timing: "6 month ago",
+    location: "India",
   },
   {
     id: 1,

@@ -51,11 +51,11 @@ const Contact = () => {
                 className="cont-img w100 transit2"
               />
             </div>
-            <h2 className="contact-card-heading fs28 fw7 mb16">
-              Nevine Acotanza
+            <h2 className="contact-card-heading fs28 fw7 mb12">
+              Shivnilay Srivastav
             </h2>
-            <h4 className="contact-card-deg fs18 mb24 fw3">
-              Chief Operatin Officer
+            <h4 className="contact-card-deg mb24 fw3 ml8">
+              Software Developer
             </h4>
             <p className="contact-card-des lh30 mb24 fs18 fw4">
               I am available for freelance work. Connect with me via and call in
