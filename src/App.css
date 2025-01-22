@@ -1422,8 +1422,8 @@ table {
   }
   .pricing-item,
   .resume-item {
-    flex: 0 0 40%;
-    max-width: 40%;
+    flex: 0 0 75%;
+    max-width: 75%;
     padding: 24px 0;
   }
   .education-card:before,
