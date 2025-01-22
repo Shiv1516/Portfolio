@@ -57,12 +57,21 @@ function About() {
             </span>
             <span>{text[currentTextIndex]}</span>
           </h2>
-          <p className="section-sub-heading lh30 fs18 mb32">
-            I use animation as a third dimension by which to simplify
-            experiences and kuiding thro each and every interaction. I’m not
-            adding motion just to spruce things up, but doing it in ways that.
+          <p className="section-sub-heading lh30 fs18 mb24">
+            I leverage my knowledge of frontend development and UI/UX design to
+            create seamless and engaging user experiences. My focus is not just
+            on building visually appealing interfaces but ensuring functionality
+            and interactivity that enhance every interaction.
           </p>
-          <h4 className="section-subheading lh20 fs14 mb32 pt80 fw5 ls2 ttu">
+          <Link
+            to="https://drive.google.com/file/d/1v2mgaflz28U8gQZnT6FZuWCb-_iUT1aH/view?usp=sharing
+"
+            target="_blank"
+            className="resume-btn fs14 bg-bs-01 p12 br24 fc-h1 fw5 mb16"
+          >
+            Resume
+          </Link>
+          <h4 className="section-subheading lh20 fs14 mb32 pt70 fw5 ls2 ttu">
             find with me
           </h4>
           <div className="about-social-media df fww">

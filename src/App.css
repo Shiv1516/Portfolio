@@ -780,6 +780,9 @@ table {
 .ptb80 {
   padding-top: 110px;
 }
+.pt70 {
+  padding-top: 70px;
+}
 
 .pl4 {
   padding-left: 4px;
@@ -1449,7 +1452,8 @@ table {
   .section-subheading {
     padding: 0px;
   }
-  .section-subheading {
+  .section-subheading,
+  .resume-btn {
     font-size: 13px;
     line-height: 18px;
   }

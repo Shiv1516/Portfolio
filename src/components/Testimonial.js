@@ -111,7 +111,7 @@ const Testimonial = () => {
       imgSrc: "/images/testimonial-02.jpg",
       description:
         "Important fact to nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante. laoreet sem in, lobortis mauris hendrerit ante. laoreet sem in, lobortis mauris hendrerit ante.",
-      date: "Upwork - Apr 1, 2017 - Aug 31, 2021",
+      date: "Delhi - Apr 1, 2022 - Aug 31, 2022",
     },
     {
       name: "Emily Johnson",
@@ -120,7 +120,7 @@ const Testimonial = () => {
       imgSrc: "/images/testimonial-01.jpg",
       description:
         "Important fact to nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante. laoreet sem in, lobortis mauris hendrerit ante. laoreet sem in, lobortis mauris hendrerit ante.",
-      date: "Freelance - Feb 20, 2019 - Jan 10, 2022",
+      date: "Noida - Feb 20, 2022 - Jun 10, 2022",
     },
     {
       name: "Emily Johnson",
@@ -129,7 +129,7 @@ const Testimonial = () => {
       imgSrc: "/images/testimonial.jpg",
       description:
         "Important fact to nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante. laoreet sem in, lobortis mauris hendrerit ante. laoreet sem in, lobortis mauris hendrerit ante.",
-      date: "Freelance - Feb 20, 2019 - Jan 10, 2022",
+      date: "Freelance - Feb 20, 2023 - Jun 10, 2023",
     },
   ];
 

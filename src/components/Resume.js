@@ -123,7 +123,7 @@ const Resume = () => {
                   2007-2010
                 </p>
                 <h3 className="education-detail-heading fs36 fw6 mb40">
-                  Education Quality
+                  Job Experience
                 </h3>
                 <div className="education-cards pl40 brd-b3">
                   <div className="education-card bef aft pr zi1 fc1 plr40 ptb48 mt48 bg-bs-01 br12">

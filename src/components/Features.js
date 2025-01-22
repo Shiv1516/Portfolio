@@ -2,58 +2,73 @@ import React from "react";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { FaArrowRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import { IoMdAppstore } from "react-icons/io";
+import { CgWebsite } from "react-icons/cg";
+import { MdOutlineScreenSearchDesktop } from "react-icons/md";
+import { MdContentPaste } from "react-icons/md";
+import { SiFrontendmentor } from "react-icons/si";
+import { MdOutlineWebhook } from "react-icons/md";
 
 const featureData = [
   {
     id: 1,
-    subtitle: "Business Stratagy",
+    subtitle: "Dynamic Websites",
     title:
-      "I throw myself down among the tall grass by the stream as i lie close to the earth.",
-    icon: "RxHamburgerMenu",
+      "Building responsive, interactive, and feature-rich websites for optimal user experience.",
+    icon: "CgWebsite",
   },
   {
-    id: 1,
-    subtitle: "Business Stratagy",
+    id: 2,
+    subtitle: "Frontend Excellence",
     title:
-      "I throw myself down among the tall grass by the stream as i lie close to the earth.",
-    icon: "RxHamburgerMenu",
+      "Delivering high-quality, responsive, and visually appealing frontend web solutions.",
+    icon: "SiFrontendmentor",
   },
   {
-    id: 1,
-    subtitle: "Business Stratagy",
+    id: 3,
+    subtitle: "Interactive Interface",
     title:
-      "I throw myself down among the tall grass by the stream as i lie close to the earth.",
-    icon: "RxHamburgerMenu",
+      "Creating engaging, user-friendly interfaces that enhance interaction and usability.",
+    icon: "IoMdAppstore",
   },
   {
-    id: 1,
-    subtitle: "Business Stratagy",
+    id: 4,
+    subtitle: "Creative Development",
     title:
-      "I throw myself down among the tall grass by the stream as i lie close to the earth.",
-    icon: "RxHamburgerMenu",
+      "Designing innovative, visually captivating websites with unique, user-focused solutions.",
+    icon: "MdOutlineScreenSearchDesktop",
   },
   {
-    id: 1,
-    subtitle: "Business Stratagy",
+    id: 5,
+    subtitle: "Functional Sites",
     title:
-      "I throw myself down among the tall grass by the stream as i lie close to the earth.",
-    icon: "RxHamburgerMenu",
+      "Building efficient, user-centric websites that prioritize functionality and seamless interaction.",
+    icon: "MdContentPaste",
   },
   {
-    id: 1,
-    subtitle: "Business Stratagy",
+    id: 6,
+    subtitle: "Modern Webs",
     title:
-      "I throw myself down among the tall grass by the stream as i lie close to the earth.",
-    icon: "RxHamburgerMenu",
+      "Developing sleek, responsive, and user-friendly websites with cutting-edge technology.",
+    icon: "MdOutlineWebhook",
   },
 ];
 
 const iconsMap = {
   RxHamburgerMenu: RxHamburgerMenu,
   FaArrowRight: FaArrowRight,
+  CgWebsite: CgWebsite,
+  IoMdAppstore: IoMdAppstore,
+  MdOutlineScreenSearchDesktop: MdOutlineScreenSearchDesktop,
+  MdContentPaste: MdContentPaste,
+  SiFrontendmentor: SiFrontendmentor,
+  MdOutlineWebhook: MdOutlineWebhook,
 };
 
 function Features() {
+  const handlemail = () => {
+    window.open("mailto:shivnilaysrivastav@gmail.com", "_blank");
+  };
   return (
     <div className="features-section wrapper ptb80 brd-b1" id="feature-id">
       <h4 className="section-subheading lh20 fs14 mb20 fc3 fw5 ls2 ttu">
@@ -66,7 +81,7 @@ function Features() {
           return (
             <div className="features-cards flx33 mb24" key={item.id}>
               <Link
-                to="/"
+                onClick={handlemail}
                 className="features-card m16 bg-bs-01 ptb48 fc-h2 transit2 plr40 br12"
               >
                 {IconComponent && (

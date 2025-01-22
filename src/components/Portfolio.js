@@ -6,45 +6,51 @@ import { Link } from "react-router-dom";
 const portfolioData = [
   {
     id: 1,
-    title: "The services provide for design",
-    likes: "600",
+    title: "Developed an India-American charity website supporting the needy.",
+    likes: "400",
     department: "Development",
     image: "/images/portfolio-01.jpg",
+    link: "https://indo-america-aajux.vercel.app/",
   },
   {
-    id: 1,
-    title: "The services provide for design",
-    likes: "600",
+    id: 2,
+    title: "Developed a dynamic foreign social media platform.",
+    likes: "550",
     department: "Development",
     image: "/images/portfolio-02.jpg",
+    link: "https://freeze-crowd.vercel.app/",
   },
   {
-    id: 1,
-    title: "The services provide for design",
-    likes: "600",
+    id: 3,
+    title: "Created a responsive website for tuition teacher services.",
+    likes: "650",
     department: "Development",
     image: "/images/portfolio-03.jpg",
+    link: "https://root-academy-aajux.vercel.app/",
   },
   {
-    id: 1,
-    title: "The services provide for design",
-    likes: "600",
+    id: 4,
+    title: "Developed an interactive charity website offering services.",
+    likes: "480",
     department: "Development",
     image: "/images/portfolio-02.jpg",
+    link: "hhttps://gurukripta.vercel.app/",
   },
   {
-    id: 1,
-    title: "The services provide for design",
-    likes: "600",
+    id: 5,
+    title: "Created a responsive, dynamic security provider website.",
+    likes: "700",
     department: "Development",
     image: "/images/portfolio-01.jpg",
+    link: "https://dolphin-detective.vercel.app/",
   },
   {
-    id: 1,
-    title: "The services provide for design",
-    likes: "600",
+    id: 6,
+    title: "Developed a sleek, responsive furniture website design.",
+    likes: "500",
     department: "Development",
     image: "/images/portfolio-03.jpg",
+    link: "https://bob-scott-test.vercel.app/",
   },
 ];
 
@@ -80,7 +86,8 @@ function Portfolio() {
                 </h5>
               </div>
               <Link
-                to="/"
+                to={item.link}
+                target="_blank"
                 className="portfolio-card-heading fs24 fc-h1 tal lh30 aic fw6"
               >
                 {item.title}
