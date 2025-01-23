@@ -8,7 +8,7 @@ const Testimonial = () => {
 
   const testimonials = [
     {
-      name: "JJohn Miller",
+      name: "John Miller",
       position: "Lead",
       company: "AAJUX Design Studio",
       imgSrc: "/images/testimonial-01.jpg",
