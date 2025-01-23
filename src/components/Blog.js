@@ -6,45 +6,51 @@ import { Link } from "react-router-dom";
 const blogData = [
   {
     id: 1,
-    title: "The Future of Web Development Trends",
+    title: "Crafting Dynamic Websites for Nonprofits",
     image: "/images/blog-01.jpg",
     timing: "2 Years ago",
     location: "India",
+    link: "https://www.wscubetech.com/blog/web-development/",
   },
   {
-    id: 1,
+    id: 2,
     title: "Mastering the Art of Freelance Projects",
     image: "/images/blog-02.jpg",
     timing: "6 month ago",
     location: "India",
+    link: "https://www.wscubetech.com/blog/web-development/",
   },
   {
-    id: 1,
-    title: "T-shirt design is the part of design",
-    image: "/images/blog-01.jpg",
-    timing: "2 min read",
-    location: "America",
+    id: 3,
+    title: "UI/UX Trends in Social Media Platforms",
+    image: "/images/blog-03.jpg",
+    timing: "2 week read",
+    location: "Delhi",
+    link: "https://www.wscubetech.com/blog/web-development/",
   },
   {
-    id: 1,
-    title: "T-shirt design is the part of design",
-    image: "/images/blog-02.jpg",
-    timing: "2 min read",
-    location: "America",
+    id: 4,
+    title: "Seamless Charity Payment Integration",
+    image: "/images/blog-04.jpg",
+    timing: "20 min read",
+    location: "Jaipur",
+    link: "https://www.wscubetech.com/blog/web-development/",
   },
   {
-    id: 1,
-    title: "T-shirt design is the part of design",
-    image: "/images/blog-01.jpg",
-    timing: "2 min read",
-    location: "America",
+    id: 5,
+    title: "Interactive Solutions for Services",
+    image: "/images/blog-05.jpg",
+    timing: "20 days read",
+    location: "NCR",
+    link: "https://www.wscubetech.com/blog/web-development/",
   },
   {
-    id: 1,
-    title: "T-shirt design is the part of design",
-    image: "/images/blog-02.jpg",
-    timing: "2 min read",
-    location: "America",
+    id: 6,
+    title: "Elevating User Experience with Framer Motion",
+    image: "/images/blog-06.jpg",
+    timing: "2 Month read",
+    location: "Noida",
+    link: "https://www.wscubetech.com/blog/web-development/",
   },
 ];
 
@@ -77,7 +83,8 @@ function Blog() {
                 </h5>
               </div>
               <Link
-                to="/"
+                to={item.link}
+                target="_blank"
                 className="blog-card-heading fs24 fc-h1 tal lh30 aic fw6"
               >
                 {item.title}
