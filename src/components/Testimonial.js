@@ -11,7 +11,7 @@ const Testimonial = () => {
       name: "John Miller",
       position: "Lead",
       company: "AAJUX Design Studio",
-      imgSrc: "/images/testimonial-01.jpg",
+      imgSrc: "/images/testimonial-01.png",
       description:
         "Shivnilay is incredibly talented! He delivered a stunning website that exceeded my expectations. His attention to detail and professionalism are top-notch. Highly recommend working with him.",
       date: "Noida - May 4, 2024 - Dec 31, 2024",
@@ -20,7 +20,7 @@ const Testimonial = () => {
       name: "Sumit Pandey",
       position: "CEO",
       company: "TechX - Solutions",
-      imgSrc: "/images/testimonial.jpg",
+      imgSrc: "/images/testimonial.png",
       description:
         "Shivnilay designed a beautiful and user-friendly interface for my business website. His creativity and dedication made the process seamless. Great experience working with him!",
       date: "Freelance - Jan 10, 2020 - Dec 15, 2023",
@@ -29,7 +29,7 @@ const Testimonial = () => {
       name: "John Doe",
       position: "Lead Developer",
       company: "DevCorp Technologies",
-      imgSrc: "/images/testimonial-02.jpg",
+      imgSrc: "/images/testimonial-02.png",
       description:
         "Fantastic work! Shivnilay's expertise in frontend development truly shines through. He understood my vision and brought it to life perfectly. Highly impressed!",
       date: "Delhi - Apr 1, 2022 - Aug 31, 2022",
@@ -38,7 +38,7 @@ const Testimonial = () => {
       name: "Pankaj Mishra",
       position: "Project Manager",
       company: "Creative Minds",
-      imgSrc: "/images/testimonial-01.jpg",
+      imgSrc: "/images/testimonial-01.png",
       description:
         "Shivnilay's work is exceptional. He transformed my ideas into a professional, interactive website. His skills and communication were impressive throughout the project. Highly satisfied!",
       date: "Noida - Feb 20, 2022 - Jun 10, 2022",
@@ -47,7 +47,7 @@ const Testimonial = () => {
       name: "Ravi Kumar",
       position: "Project Manager",
       company: "Creative Minds",
-      imgSrc: "/images/testimonial.jpg",
+      imgSrc: "/images/testimonial.png",
       description:
         "Working with Shivnilay was a pleasure. He created a visually stunning and functional site for my brand. His ability to meet deadlines with such quality is remarkable!",
       date: "Jaipur - Feb 20, 2023 - Jun 10, 2023",

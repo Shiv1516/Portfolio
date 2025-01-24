@@ -46,7 +46,7 @@ const Contact = () => {
           <div className="contact-card mlr16 br12 p32 bg-bs-01">
             <div className="contact-card-img mb24 ofh df br12">
               <img
-                src="/images/contact.jpg"
+                src="/images/contact.png"
                 alt="portfolio"
                 className="cont-img w100 transit2"
               />
