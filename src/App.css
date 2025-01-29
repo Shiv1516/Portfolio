@@ -1351,7 +1351,7 @@ table {
   }
   .pricing-card-container,
   .pricing-card-details,
-  .flx33 {
+  .client-detail-list {
     flex: 0 0 100%;
     max-width: 100%;
   }
@@ -1371,7 +1371,6 @@ table {
   .fs36 {
     font-size: 32px;
   }
-
 }
 @media screen and (max-width: 720px) {
   .about-content,
@@ -1494,10 +1493,6 @@ table {
   }
   .education-cards {
     border: none;
-  }
-  .client-detail-list {
-    flex: 0 0 50%;
-    max-width: 50%;
   }
   .social-icon {
     padding: 12px;
