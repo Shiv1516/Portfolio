@@ -1207,6 +1207,22 @@ table {
 .skill-percentage {
   top: 28%;
 }
+
+.card-outer-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 60px;
+}
+.logo-icon-card {
+  width: auto;
+  max-width: 200px;
+  max-height: 50px;
+}
+.logo-icon-card:hover {
+  transform: scale(1.25);
+}
 @media screen and (max-width: 1110px) {
   .testimonial-card-box {
     width: 100%;

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Resume = () => {
   const [activeresume, setactiveresume] = useState("education");
@@ -48,7 +49,7 @@ const Resume = () => {
             <div className="education-cards-box flx50">
               <div className="education-inner-card mr24">
                 <p className="education-detail-year fc3 fw5 ls1 fs14 mb16">
-                  2007-2010
+                  2017-2023
                 </p>
                 <h3 className="education-detail-heading fs36 fw6 mb40">
                   Education Quality
@@ -58,60 +59,60 @@ const Resume = () => {
                     <div className="education-top-box df jcsb aic pb48 brd-b2">
                       <div className="education-detail">
                         <h2 className="education-heading lh24 mb16 fs24 fw5">
-                          Personal Portfolio April Fools
+                          Bachelor of Technology
                         </h2>
                         <p className="eductaion-subheading lh18 fs14">
-                          University of DVI (1997 - 2001)
+                          A. K. T. U. (2019 - 2023)
                         </p>
                       </div>
                       <p className="education-persent fs14 bg3 br8 p12 fc3 fw5 bs1">
-                        4.30/5
+                        7.5/10
                       </p>
                     </div>
                     <p className="education-box-details lh30 fw4 fs18 pt32">
-                      The education should be very interactual. Ut tincidunt est
-                      ac dolor aliquam sodales. Phasellus sed mauris hendrerit,
-                      laoreet sem in, lobortis mauris hendrerit ante.
+                      Passionate Computer Science student skilled in coding,
+                      problem-solving, and software development. Eager to
+                      innovate and build impactful solutions.
                     </p>
                   </div>
                   <div className="education-card bef aft pr zi1 fc1 plr40 ptb48 mt48 bg-bs-01 br12">
                     <div className="education-top-box df jcsb aic pb48 brd-b2">
                       <div className="education-detail">
                         <h2 className="education-heading lh24 mb16 fs24 fw5">
-                          Personal Portfolio April Fools
+                          Higher Secondary Education
                         </h2>
                         <p className="eductaion-subheading lh18 fs14">
-                          University of DVI (1997 - 2001)
+                          Stat Board (2017 - 2019)
                         </p>
                       </div>
                       <p className="education-persent fs14 bg3 br8 p12 fc3 fw5 bs1">
-                        4.30/5
+                        7.5/10
                       </p>
                     </div>
                     <p className="education-box-details lh30 fw4 fs18 pt32">
-                      The education should be very interactual. Ut tincidunt est
-                      ac dolor aliquam sodales. Phasellus sed mauris hendrerit,
-                      laoreet sem in, lobortis mauris hendrerit ante.
+                      Passionate about science and technology, pursuing 12th in
+                      PCM. Strong analytical skills, problem-solving mindset,
+                      and eager to explore engineering innovations.
                     </p>
                   </div>
                   <div className="education-card bef aft pr zi1 fc1 plr40 ptb48 mt48 bg-bs-01 br12">
                     <div className="education-top-box df jcsb aic pb48 brd-b2">
                       <div className="education-detail">
                         <h2 className="education-heading lh24 mb16 fs24 fw5">
-                          Personal Portfolio April Fools
+                          High School Education
                         </h2>
                         <p className="eductaion-subheading lh18 fs14">
-                          University of DVI (1997 - 2001)
+                          Stat Board (2015 - 2017)
                         </p>
                       </div>
                       <p className="education-persent fs14 bg3 br8 p12 fc3 fw5 bs1">
-                        4.30/5
+                        8.2/10
                       </p>
                     </div>
                     <p className="education-box-details lh30 fw4 fs18 pt32">
-                      The education should be very interactual. Ut tincidunt est
-                      ac dolor aliquam sodales. Phasellus sed mauris hendrerit,
-                      laoreet sem in, lobortis mauris hendrerit ante.
+                      Completed 10th with a strong foundation in mathematics and
+                      science. Enthusiastic learner, curious mindset, and eager
+                      to develop technical skills.
                     </p>
                   </div>
                 </div>
@@ -120,7 +121,7 @@ const Resume = () => {
             <div className="education-cards-box flx50">
               <div className="education-inner-card ml24">
                 <p className="education-detail-year fc3 fw5 ls1 fs14 mb16">
-                  2007-2010
+                  2023-Present
                 </p>
                 <h3 className="education-detail-heading fs36 fw6 mb40">
                   Job Experience
@@ -130,60 +131,69 @@ const Resume = () => {
                     <div className="education-top-box df jcsb aic pb48 brd-b2">
                       <div className="education-detail">
                         <h2 className="education-heading lh24 mb16 fs24 fw5">
-                          Personal Portfolio April Fools
+                          Software Developer
                         </h2>
                         <p className="eductaion-subheading lh18 fs14">
-                          University of DVI (1997 - 2001)
+                          AAJUX Design Studio (05/2023 - 12/2024 )
                         </p>
                       </div>
-                      <p className="education-persent fs14 bg3 br8 p12 fc3 fw5 bs1">
-                        4.30/5
-                      </p>
+                      <Link
+                        to="https://github.com/Shiv1516"
+                        className="education-persent fs14 bg3 br8 p12 fc3 fw5 bs1"
+                      >
+                        Work
+                      </Link>
                     </div>
                     <p className="education-box-details lh30 fw4 fs18 pt32">
-                      The education should be very interactual. Ut tincidunt est
-                      ac dolor aliquam sodales. Phasellus sed mauris hendrerit,
-                      laoreet sem in, lobortis mauris hendrerit ante.
+                      Experienced in frontend development with React, Next.js,
+                      HTML, CSS, and JavaScript. Passionate about UI design and
+                      creating innovative solutions.
                     </p>
                   </div>
                   <div className="education-card bef aft pr zi1 fc1 plr40 ptb48 mt48 bg-bs-01 br12">
                     <div className="education-top-box df jcsb aic pb48 brd-b2">
                       <div className="education-detail">
                         <h2 className="education-heading lh24 mb16 fs24 fw5">
-                          Personal Portfolio April Fools
+                          Junior Developer
                         </h2>
                         <p className="eductaion-subheading lh18 fs14">
-                          University of DVI (1997 - 2001)
+                          Markecsy (03/23 - 04/23)
                         </p>
                       </div>
-                      <p className="education-persent fs14 bg3 br8 p12 fc3 fw5 bs1">
-                        4.30/5
-                      </p>
+                      <Link
+                        to="https://github.com/Shiv1516"
+                        className="education-persent fs14 bg3 br8 p12 fc3 fw5 bs1"
+                      >
+                        Work
+                      </Link>
                     </div>
                     <p className="education-box-details lh30 fw4 fs18 pt32">
-                      The education should be very interactual. Ut tincidunt est
-                      ac dolor aliquam sodales. Phasellus sed mauris hendrerit,
-                      laoreet sem in, lobortis mauris hendrerit ante.
+                      Junior Developer skilled in HTML, CSS, JavaScript, and
+                      cloud technologies. Passionate about frontend development,
+                      problem-solving, and scalable solutions.
                     </p>
                   </div>
                   <div className="education-card bef aft pr zi1 fc1 plr40 ptb48 mt48 bg-bs-01 br12">
                     <div className="education-top-box df jcsb aic pb48 brd-b2">
                       <div className="education-detail">
                         <h2 className="education-heading lh24 mb16 fs24 fw5">
-                          Personal Portfolio April Fools
+                          Software Developer Intern
                         </h2>
                         <p className="eductaion-subheading lh18 fs14">
-                          University of DVI (1997 - 2001)
+                          Fynd Academy (12/2022 - 02/23)
                         </p>
                       </div>
-                      <p className="education-persent fs14 bg3 br8 p12 fc3 fw5 bs1">
-                        4.30/5
-                      </p>
+                      <Link
+                        to="https://github.com/Shiv1516"
+                        className="education-persent fs14 bg3 br8 p12 fc3 fw5 bs1"
+                      >
+                        Work
+                      </Link>
                     </div>
                     <p className="education-box-details lh30 fw4 fs18 pt32">
-                      The education should be very interactual. Ut tincidunt est
-                      ac dolor aliquam sodales. Phasellus sed mauris hendrerit,
-                      laoreet sem in, lobortis mauris hendrerit ante.
+                      Software Developer Intern learning MERN stack concepts.
+                      Strengthening fundamentals in MongoDB, Express.js, React,
+                      and Node.js for full-stack development.
                     </p>
                   </div>
                 </div>
@@ -217,7 +227,7 @@ const Resume = () => {
                   <div className="skill-percent h14 aic df bg4 br12 ofh">
                     <span className="bg-bs-02 w85 h9 br12 mlr3"></span>
                   </div>
-                  <span className="skill-percentage pa fs14 r0">100%</span>
+                  <span className="skill-percentage pa fs14 r0">85%</span>
                 </div>
                 <div className="skills-name-list mb40 pr">
                   <h4 className="skills-name mb16 fs14 ttu ls1 fw5">
@@ -233,9 +243,9 @@ const Resume = () => {
                     Interface
                   </h4>
                   <div className="skill-percent h14 aic df bg4 br12 ofh">
-                    <span className="bg-bs-02 w50 h9 br12 mlr3"></span>
+                    <span className="bg-bs-02 w85 h9 br12 mlr3"></span>
                   </div>
-                  <span className="skill-percentage pa fs14 r0">100%</span>
+                  <span className="skill-percentage pa fs14 r0">85%</span>
                 </div>
                 <div className="skills-name-list mb40 pr">
                   <h4 className="skills-name mb16 fs14 ttu ls1 fw5">
@@ -266,7 +276,7 @@ const Resume = () => {
                 <div className="skills-name-list mb40 pr">
                   <h4 className="skills-name mb16 fs14 ttu ls1 fw5">CSS</h4>
                   <div className="skill-percent h14 aic df bg4 br12 ofh">
-                    <span className="bg-bs-02 w85 h9 br12 mlr3"></span>
+                    <span className="bg-bs-02 w100 h9 br12 mlr3"></span>
                   </div>
                   <span className="skill-percentage pa fs14 r0">100%</span>
                 </div>
@@ -277,23 +287,23 @@ const Resume = () => {
                   <div className="skill-percent h14 aic df bg4 br12 ofh">
                     <span className="bg-bs-02 w85 h9 br12 mlr3"></span>
                   </div>
-                  <span className="skill-percentage pa fs14 r0">100%</span>
+                  <span className="skill-percentage pa fs14 r0">85%</span>
                 </div>
                 <div className="skills-name-list mb40 pr">
                   <h4 className="skills-name mb16 fs14 ttu ls1 fw5">
                     React JS
                   </h4>
                   <div className="skill-percent h14 aic df bg4 br12 ofh">
-                    <span className="bg-bs-02 w100 h9 br12 mlr3"></span>
+                    <span className="bg-bs-02 w85 h9 br12 mlr3"></span>
                   </div>
-                  <span className="skill-percentage pa fs14 r0">100%</span>
+                  <span className="skill-percentage pa fs14 r0">85%</span>
                 </div>
                 <div className="skills-name-list mb40 pr">
                   <h4 className="skills-name mb16 fs14 ttu ls1 fw5">Next JS</h4>
                   <div className="skill-percent h14 aic df bg4 br12 ofh">
                     <span className="bg-bs-02 w85 h9 br12 mlr3"></span>
                   </div>
-                  <span className="skill-percentage pa fs14 r0">100%</span>
+                  <span className="skill-percentage pa fs14 r0">85%</span>
                 </div>
               </div>
             </div>
@@ -304,7 +314,7 @@ const Resume = () => {
             <div className="education-cards-box flx50">
               <div className="education-inner-card mr24">
                 <p className="education-detail-year fc3 fw5 ls1 fs14 mb16">
-                  2007-2010
+                  2017-2023
                 </p>
                 <h3 className="education-detail-heading fs36 fw6 mb40">
                   Education Quality
@@ -314,69 +324,60 @@ const Resume = () => {
                     <div className="education-top-box df jcsb aic pb48 brd-b2">
                       <div className="education-detail">
                         <h2 className="education-heading lh24 mb16 fs24 fw5">
-                          Personal Portfolio April Fools
+                          Bachelor of Technology
                         </h2>
                         <p className="eductaion-subheading lh18 fs14">
-                          University of DVI (1997 - 2001)
+                          A. K. T. U. (2019 - 2023)
                         </p>
                       </div>
                       <p className="education-persent fs14 bg3 br8 p12 fc3 fw5 bs1">
-                        4.30/5
+                        7.5/10
                       </p>
                     </div>
                     <p className="education-box-details lh30 fw4 fs18 pt32">
-                      Education should be engaging and interactive. It should
-                      inspire curiosity and foster meaningful learning
-                      experiences. Effective education blends theory with
-                      practical application, encouraging collaboration and
-                      critical thinking. By doing so, it nurtures innovation and
-                      prepares learners for real-world challenges.
+                      Passionate Computer Science student skilled in coding,
+                      problem-solving, and software development. Eager to
+                      innovate and build impactful solutions.
                     </p>
                   </div>
                   <div className="education-card bef aft pr zi1 fc1 plr40 ptb48 mt48 bg-bs-01 br12">
                     <div className="education-top-box df jcsb aic pb48 brd-b2">
                       <div className="education-detail">
                         <h2 className="education-heading lh24 mb16 fs24 fw5">
-                          Personal Portfolio April Fools
+                          Higher Secondary Education
                         </h2>
                         <p className="eductaion-subheading lh18 fs14">
-                          University of DVI (1997 - 2001)
+                          Stat Board (2017 - 2019)
                         </p>
                       </div>
                       <p className="education-persent fs14 bg3 br8 p12 fc3 fw5 bs1">
-                        4.30/5
+                        7.5/10
                       </p>
                     </div>
                     <p className="education-box-details lh30 fw4 fs18 pt32">
-                      Education should be engaging and interactive. It should
-                      inspire curiosity and foster meaningful learning
-                      experiences. Effective education blends theory with
-                      practical application, encouraging collaboration and
-                      critical thinking. By doing so, it nurtures innovation and
-                      prepares learners for real-world challenges.
+                      Passionate about science and technology, pursuing 12th in
+                      PCM. Strong analytical skills, problem-solving mindset,
+                      and eager to explore engineering innovations.
                     </p>
                   </div>
                   <div className="education-card bef aft pr zi1 fc1 plr40 ptb48 mt48 bg-bs-01 br12">
                     <div className="education-top-box df jcsb aic pb48 brd-b2">
                       <div className="education-detail">
                         <h2 className="education-heading lh24 mb16 fs24 fw5">
-                          Personal Portfolio April Fools
+                          High School Education
                         </h2>
                         <p className="eductaion-subheading lh18 fs14">
-                          University of DVI (1997 - 2001)
+                          Stat Board (2015 - 2017)
                         </p>
                       </div>
                       <p className="education-persent fs14 bg3 br8 p12 fc3 fw5 bs1">
-                        4.30/5
+                        8.2/10
                       </p>
                     </div>
                     <p className="education-box-details lh30 fw4 fs18 pt32">
-                      Education should be engaging and interactive. It should
-                      inspire curiosity and foster meaningful learning
-                      experiences. Effective education blends theory with
-                      practical application, encouraging collaboration and
-                      critical thinking. By doing so, it nurtures innovation and
-                      prepares learners for real-world challenges.
+                      Completed 10th with a strong foundation in mathematics and
+                      science. Enthusiastic learner, curious mindset, and eager
+                      to develop technical skills.
                     </p>
                   </div>
                 </div>
@@ -385,79 +386,79 @@ const Resume = () => {
             <div className="education-cards-box flx50">
               <div className="education-inner-card ml24">
                 <p className="education-detail-year fc3 fw5 ls1 fs14 mb16">
-                  2007-2010
+                  2023-Present
                 </p>
                 <h3 className="education-detail-heading fs36 fw6 mb40">
-                  Education Quality
+                  Job Experience
                 </h3>
                 <div className="education-cards pl40 brd-b3">
                   <div className="education-card bef aft pr zi1 fc1 plr40 ptb48 mt48 bg-bs-01 br12">
                     <div className="education-top-box df jcsb aic pb48 brd-b2">
                       <div className="education-detail">
                         <h2 className="education-heading lh24 mb16 fs24 fw5">
-                          Personal Portfolio April Fools
+                          Software Developer
                         </h2>
                         <p className="eductaion-subheading lh18 fs14">
-                          University of DVI (1997 - 2001)
+                          AAJUX Design Studio (05/2023 - 12/2024 )
                         </p>
                       </div>
-                      <p className="education-persent fs14 bg3 br8 p12 fc3 fw5 bs1">
-                        4.30/5
-                      </p>
+                      <Link
+                        to="https://github.com/Shiv1516"
+                        className="education-persent fs14 bg3 br8 p12 fc3 fw5 bs1"
+                      >
+                        Work
+                      </Link>
                     </div>
                     <p className="education-box-details lh30 fw4 fs18 pt32">
-                      Education should be engaging and interactive. It should
-                      inspire curiosity and foster meaningful learning
-                      experiences. Effective education blends theory with
-                      practical application, encouraging collaboration and
-                      critical thinking. By doing so, it nurtures innovation and
-                      prepares learners for real-world challenges.
+                      Experienced in frontend development with React, Next.js,
+                      HTML, CSS, and JavaScript. Passionate about UI design and
+                      creating innovative solutions.
                     </p>
                   </div>
                   <div className="education-card bef aft pr zi1 fc1 plr40 ptb48 mt48 bg-bs-01 br12">
                     <div className="education-top-box df jcsb aic pb48 brd-b2">
                       <div className="education-detail">
                         <h2 className="education-heading lh24 mb16 fs24 fw5">
-                          Personal Portfolio April Fools
+                          Junior Developer
                         </h2>
                         <p className="eductaion-subheading lh18 fs14">
-                          University of DVI (1997 - 2001)
+                          Markecsy (03/23 - 04/23)
                         </p>
                       </div>
-                      <p className="education-persent fs14 bg3 br8 p12 fc3 fw5 bs1">
-                        4.30/5
-                      </p>
+                      <Link
+                        to="https://github.com/Shiv1516"
+                        className="education-persent fs14 bg3 br8 p12 fc3 fw5 bs1"
+                      >
+                        Work
+                      </Link>
                     </div>
                     <p className="education-box-details lh30 fw4 fs18 pt32">
-                      Education should be engaging and interactive. It should
-                      inspire curiosity and foster meaningful learning
-                      experiences. Effective education blends theory with
-                      practical application, encouraging collaboration and
-                      critical thinking. By doing so, it nurtures innovation and
-                      prepares learners for real-world challenges.
+                      Junior Developer skilled in HTML, CSS, JavaScript, and
+                      cloud technologies. Passionate about frontend development,
+                      problem-solving, and scalable solutions.
                     </p>
                   </div>
                   <div className="education-card bef aft pr zi1 fc1 plr40 ptb48 mt48 bg-bs-01 br12">
                     <div className="education-top-box df jcsb aic pb48 brd-b2">
                       <div className="education-detail">
                         <h2 className="education-heading lh24 mb16 fs24 fw5">
-                          Personal Portfolio April Fools
+                          Software Developer Intern
                         </h2>
                         <p className="eductaion-subheading lh18 fs14">
-                          University of DVI (1997 - 2001)
+                          Fynd Academy (12/2022 - 02/23)
                         </p>
                       </div>
-                      <p className="education-persent fs14 bg3 br8 p12 fc3 fw5 bs1">
-                        4.30/5
-                      </p>
+                      <Link
+                        to="https://github.com/Shiv1516"
+                        className="education-persent fs14 bg3 br8 p12 fc3 fw5 bs1"
+                      >
+                        Work
+                      </Link>
                     </div>
                     <p className="education-box-details lh30 fw4 fs18 pt32">
-                      Education should be engaging and interactive. It should
-                      inspire curiosity and foster meaningful learning
-                      experiences. Effective education blends theory with
-                      practical application, encouraging collaboration and
-                      critical thinking. By doing so, it nurtures innovation and
-                      prepares learners for real-world challenges.
+                      Software Developer Intern learning MERN stack concepts.
+                      Strengthening fundamentals in MongoDB, Express.js, React,
+                      and Node.js for full-stack development.
                     </p>
                   </div>
                 </div>
@@ -470,7 +471,7 @@ const Resume = () => {
             <div className="education-cards-box flx50">
               <div className="education-inner-card mr24">
                 <p className="education-detail-year fc3 fw5 ls1 fs14 mb16">
-                  2007-2010
+                  2017-2023
                 </p>
                 <h3 className="education-detail-heading fs36 fw6 mb40">
                   Education Quality
@@ -480,60 +481,60 @@ const Resume = () => {
                     <div className="education-top-box df jcsb aic pb48 brd-b2">
                       <div className="education-detail">
                         <h2 className="education-heading lh24 mb16 fs24 fw5">
-                          Personal Portfolio April Fools
+                          Bachelor of Technology
                         </h2>
                         <p className="eductaion-subheading lh18 fs14">
-                          University of DVI (1997 - 2001)
+                          A. K. T. U. (2019 - 2023)
                         </p>
                       </div>
                       <p className="education-persent fs14 bg3 br8 p12 fc3 fw5 bs1">
-                        4.30/5
+                        7.5/10
                       </p>
                     </div>
                     <p className="education-box-details lh30 fw4 fs18 pt32">
-                      The education should be very interactual. Ut tincidunt est
-                      ac dolor aliquam sodales. Phasellus sed mauris hendrerit,
-                      laoreet sem in, lobortis mauris hendrerit ante.
+                      Passionate Computer Science student skilled in coding,
+                      problem-solving, and software development. Eager to
+                      innovate and build impactful solutions.
                     </p>
                   </div>
                   <div className="education-card bef aft pr zi1 fc1 plr40 ptb48 mt48 bg-bs-01 br12">
                     <div className="education-top-box df jcsb aic pb48 brd-b2">
                       <div className="education-detail">
                         <h2 className="education-heading lh24 mb16 fs24 fw5">
-                          Personal Portfolio April Fools
+                          Higher Secondary Education
                         </h2>
                         <p className="eductaion-subheading lh18 fs14">
-                          University of DVI (1997 - 2001)
+                          Stat Board (2017 - 2019)
                         </p>
                       </div>
                       <p className="education-persent fs14 bg3 br8 p12 fc3 fw5 bs1">
-                        4.30/5
+                        7.5/10
                       </p>
                     </div>
                     <p className="education-box-details lh30 fw4 fs18 pt32">
-                      The education should be very interactual. Ut tincidunt est
-                      ac dolor aliquam sodales. Phasellus sed mauris hendrerit,
-                      laoreet sem in, lobortis mauris hendrerit ante.
+                      Passionate about science and technology, pursuing 12th in
+                      PCM. Strong analytical skills, problem-solving mindset,
+                      and eager to explore engineering innovations.
                     </p>
                   </div>
                   <div className="education-card bef aft pr zi1 fc1 plr40 ptb48 mt48 bg-bs-01 br12">
                     <div className="education-top-box df jcsb aic pb48 brd-b2">
                       <div className="education-detail">
                         <h2 className="education-heading lh24 mb16 fs24 fw5">
-                          Personal Portfolio April Fools
+                          High School Education
                         </h2>
                         <p className="eductaion-subheading lh18 fs14">
-                          University of DVI (1997 - 2001)
+                          Stat Board (2015 - 2017)
                         </p>
                       </div>
                       <p className="education-persent fs14 bg3 br8 p12 fc3 fw5 bs1">
-                        4.30/5
+                        8.2/10
                       </p>
                     </div>
                     <p className="education-box-details lh30 fw4 fs18 pt32">
-                      The education should be very interactual. Ut tincidunt est
-                      ac dolor aliquam sodales. Phasellus sed mauris hendrerit,
-                      laoreet sem in, lobortis mauris hendrerit ante.
+                      Completed 10th with a strong foundation in mathematics and
+                      science. Enthusiastic learner, curious mindset, and eager
+                      to develop technical skills.
                     </p>
                   </div>
                 </div>
@@ -542,70 +543,79 @@ const Resume = () => {
             <div className="education-cards-box flx50">
               <div className="education-inner-card ml24">
                 <p className="education-detail-year fc3 fw5 ls1 fs14 mb16">
-                  2007-2010
+                  2023-Present
                 </p>
                 <h3 className="education-detail-heading fs36 fw6 mb40">
-                  Education Quality
+                  Job Experience
                 </h3>
                 <div className="education-cards pl40 brd-b3">
                   <div className="education-card bef aft pr zi1 fc1 plr40 ptb48 mt48 bg-bs-01 br12">
                     <div className="education-top-box df jcsb aic pb48 brd-b2">
                       <div className="education-detail">
                         <h2 className="education-heading lh24 mb16 fs24 fw5">
-                          Personal Portfolio April Fools
+                          Software Developer
                         </h2>
                         <p className="eductaion-subheading lh18 fs14">
-                          University of DVI (1997 - 2001)
+                          AAJUX Design Studio (05/2023 - 12/2024 )
                         </p>
                       </div>
-                      <p className="education-persent fs14 bg3 br8 p12 fc3 fw5 bs1">
-                        4.30/5
-                      </p>
+                      <Link
+                        to="https://github.com/Shiv1516"
+                        className="education-persent fs14 bg3 br8 p12 fc3 fw5 bs1"
+                      >
+                        Work
+                      </Link>
                     </div>
                     <p className="education-box-details lh30 fw4 fs18 pt32">
-                      The education should be very interactual. Ut tincidunt est
-                      ac dolor aliquam sodales. Phasellus sed mauris hendrerit,
-                      laoreet sem in, lobortis mauris hendrerit ante.
+                      Experienced in frontend development with React, Next.js,
+                      HTML, CSS, and JavaScript. Passionate about UI design and
+                      creating innovative solutions.
                     </p>
                   </div>
                   <div className="education-card bef aft pr zi1 fc1 plr40 ptb48 mt48 bg-bs-01 br12">
                     <div className="education-top-box df jcsb aic pb48 brd-b2">
                       <div className="education-detail">
                         <h2 className="education-heading lh24 mb16 fs24 fw5">
-                          Personal Portfolio April Fools
+                          Junior Developer
                         </h2>
                         <p className="eductaion-subheading lh18 fs14">
-                          University of DVI (1997 - 2001)
+                          Markecsy (03/23 - 04/23)
                         </p>
                       </div>
-                      <p className="education-persent fs14 bg3 br8 p12 fc3 fw5 bs1">
-                        4.30/5
-                      </p>
+                      <Link
+                        to="https://github.com/Shiv1516"
+                        className="education-persent fs14 bg3 br8 p12 fc3 fw5 bs1"
+                      >
+                        Work
+                      </Link>
                     </div>
                     <p className="education-box-details lh30 fw4 fs18 pt32">
-                      The education should be very interactual. Ut tincidunt est
-                      ac dolor aliquam sodales. Phasellus sed mauris hendrerit,
-                      laoreet sem in, lobortis mauris hendrerit ante.
+                      Junior Developer skilled in HTML, CSS, JavaScript, and
+                      cloud technologies. Passionate about frontend development,
+                      problem-solving, and scalable solutions.
                     </p>
                   </div>
                   <div className="education-card bef aft pr zi1 fc1 plr40 ptb48 mt48 bg-bs-01 br12">
                     <div className="education-top-box df jcsb aic pb48 brd-b2">
                       <div className="education-detail">
                         <h2 className="education-heading lh24 mb16 fs24 fw5">
-                          Personal Portfolio April Fools
+                          Software Developer Intern
                         </h2>
                         <p className="eductaion-subheading lh18 fs14">
-                          University of DVI (1997 - 2001)
+                          Fynd Academy (12/2022 - 02/23)
                         </p>
                       </div>
-                      <p className="education-persent fs14 bg3 br8 p12 fc3 fw5 bs1">
-                        4.30/5
-                      </p>
+                      <Link
+                        to="https://github.com/Shiv1516"
+                        className="education-persent fs14 bg3 br8 p12 fc3 fw5 bs1"
+                      >
+                        Work
+                      </Link>
                     </div>
                     <p className="education-box-details lh30 fw4 fs18 pt32">
-                      The education should be very interactual. Ut tincidunt est
-                      ac dolor aliquam sodales. Phasellus sed mauris hendrerit,
-                      laoreet sem in, lobortis mauris hendrerit ante.
+                      Software Developer Intern learning MERN stack concepts.
+                      Strengthening fundamentals in MongoDB, Express.js, React,
+                      and Node.js for full-stack development.
                     </p>
                   </div>
                 </div>
