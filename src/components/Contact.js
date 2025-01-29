@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import emailjs from "emailjs-com";
 import { Link } from "react-router-dom";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
@@ -26,7 +27,21 @@ const Contact = () => {
       subject,
       message: text,
     };
-    console.log("Form Submitted:", formData);
+    emailjs
+      .send(
+        "service_d0iq9tk",
+        "template_r6vnu2g",
+        formData,
+        "jDmRih3wWZgZvSHVu"
+      )
+      .then(
+        (response) => {
+          console.log("Email sent successfully!", response);
+        },
+        (error) => {
+          console.error("Error sending email:", error);
+        }
+      );
 
     setName("");
     setNumber("");
@@ -74,7 +89,6 @@ const Contact = () => {
               <li className="contact-item df mb12">
                 Email:
                 <Link
-                  // to="mailto:shivnilaysrivastav@gmail.com"
                   onClick={handlemail}
                   className="contact-item-hov transit2 aft pr fc-h1 ml12"
                 >

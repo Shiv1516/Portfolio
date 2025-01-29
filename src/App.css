@@ -1217,7 +1217,7 @@ table {
 }
 .logo-icon-card {
   width: auto;
-  max-width: 200px;
+  max-width: 150px;
   max-height: 50px;
 }
 .logo-icon-card:hover {
@@ -1272,6 +1272,11 @@ table {
 
   .open-nav .hamburger-line:nth-child(2) {
     opacity: 0;
+  }
+  .logo-icon-card {
+    width: auto;
+    max-width: 100px;
+    max-height: 50px;
   }
 
   .open-nav .hamburger-line:nth-child(3) {
@@ -1361,6 +1366,9 @@ table {
   }
   .education-cards {
     padding: 0px;
+  }
+  .fs36 {
+    font-size: 32px;
   }
 }
 @media screen and (max-width: 720px) {
